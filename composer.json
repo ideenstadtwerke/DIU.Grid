@@ -3,7 +3,11 @@
     "type": "neos-plugin",
     "name": "diu/grid",
     "require": {
-        "neos/flow": "*"
+        "neos/flow": "*",
+        "neos/fusion-afx": "*",
+    },
+    "suggest": {
+        "sitegeist/monocle": "*"
     },
     "autoload": {
         "psr-4": {
