@@ -10,6 +10,19 @@
             "DIU\\Grid\\": "Classes/"
         }
     },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alexander Kappler",
+            "email": "alexander.kappler@di-unternehmer.com",
+            "role": "Technical Lead"
+        },
+        {
+            "name": "Pascal Folleher",
+            "email": "pascal.folleher@di-unternehmer.com",
+            "role": "Developer"
+        }
+    ],
     "extra": {
         "neos": {
             "package-key": "DIU.Grid"
