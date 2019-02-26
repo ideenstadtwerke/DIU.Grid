@@ -1,0 +1,65 @@
+prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion:Component) {
+
+    #
+    # Styleguide annotation
+    # if this annotation is present (even when empty)
+    # the prototype is rendered in the styleguide
+    #
+    @styleguide {
+
+        title = '4 Column Grid'
+
+        description = 'A four column grid which has the posibility to add a fixed spacing above and below.'
+
+        @propTypes {
+            column0 = ${PropTypes.string.isRequired}
+            column1 = ${PropTypes.string.isRequired}
+            column2 = ${PropTypes.string.isRequired}
+            column3 = ${PropTypes.string.isRequired}
+            layout = ${PropTypes.string.isRequired}
+            classNames = ${PropTypes.string}
+            addTopSpacing = ${PropTypes.boolean}
+            addBottomSpacing = ${PropTypes.boolean}
+        }
+
+        props {
+            column0 = '<h2 style="padding:5px;background-color:white;">Column 1 content</h2>'
+            column1 = '<h2 style="padding:5px;background-color:white;">Column 2 content</h2>'
+            column2 = '<h2 style="padding:5px;background-color:white;">Column 3 content</h2>'
+            column3 = '<h2 style="padding:5px;background-color:white;">Column 4 content</h2>'
+            layout = '3-3-3-3'
+            classNames = ''
+            addTopSpacing = false
+            addBottomSpacing = false
+        }
+
+        propSets {
+            'Top and Buttom Spacing' {
+                addTopSpacing = true
+                addBottomSpacing = true
+            }
+        }
+    }
+
+    layout = null
+    column0 = null
+    column1 = null
+    column2 = null
+    column3 = null
+    classNames = ''
+    addTopSpacing = false
+    addBottomSpacing = false
+
+    #
+    # The code afx`...` is converted to the fusion code below at parse time.
+    # Attention: Currently there is no way to escape closing-backticks inside the Expression.
+    #
+    renderer = afx`
+        <div class={'row molecule-grid molecule-grid-column-four' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
+            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={'col-md-' + String.split(props.layout, '-')[0]} />
+            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={'col-md-' + String.split(props.layout, '-')[1]} />
+            <DIU.Grid:Components.Atom.Column content={props.column2} classNames={'col-md-' + String.split(props.layout, '-')[2]} />
+            <DIU.Grid:Components.Atom.Column content={props.column3} classNames={'col-md-' + String.split(props.layout, '-')[3]} />
+        </div>
+    `
+}

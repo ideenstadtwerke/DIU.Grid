@@ -1,0 +1,18 @@
+prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:ContentComponent) {
+
+    renderer = DIU.Grid:Components.Molecule.Grid.Column.One {
+
+        classNames = ''
+
+        layout = ${q(node).property('layout')}
+
+        addTopSpacing = ${q(node).property('addTopSpacing')}
+
+        addBottomSpacing = ${q(node).property('addBottomSpacing')}
+
+        column0 = Neos.Neos:ContentCollection {
+            nodePath = 'column0'
+        }
+    }
+
+}

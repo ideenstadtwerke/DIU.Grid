@@ -1,0 +1,17 @@
+'DIU.GridCom:Content.Structure.Grid.Column.Two':
+  superTypes:
+    'DIU.Grid:Content.Structure.Grid.Mixin': true
+    'DIU.Grid:Content.Mixins.Spacing': true
+  ui:
+    label: i18n
+    position: 200
+  childNodes:
+    column0:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+    column1:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+  properties:
+    layout:
+      defaultValue: 6-6
+      ui:
+        inspector: ~

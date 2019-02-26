@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="Content.Structure.Section">
+                <source>Section</source>
+            </trans-unit>
+            <trans-unit id="ui.label">
+                <source>Section</source>
+            </trans-unit>
+            <trans-unit id="groups.general">
+                <source>Section Settings</source>
+            </trans-unit>
+            <trans-unit id="properties.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="properties.title.ui.inline.editorOptions.placeholder">
+                <source>type your title here</source>
+            </trans-unit>
+            <trans-unit id="properties.subtitle">
+                <source>Subitle</source>
+            </trans-unit>
+            <trans-unit id="properties.subtitle.ui.inline.editorOptions.placeholder">
+                <source>space for a subtitle</source>
+            </trans-unit>
+            <trans-unit id="properties.useHeadlineStyle">
+                <source>Headline: white in a blue box</source>
+            </trans-unit>
+            <trans-unit id="properties.showSubtitle">
+                <source>Show a Subtitle (only for the blue boxed headline)</source>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.noSectionOffset">
+                <source>no offset</source>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.smallSectionOffset">
+                <source>small offset</source>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.mediumSectionOffset">
+                <source>medium offset</source>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.largeSectionOffset">
+                <source>large offset</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,4 @@
+'DIU.Grid:Content.Structure.Grid.ContentCollection':
+  superTypes:
+    'Neos.Neos:ContentCollection': true
+    'DIU.Grid:Content.Structure.Grid.ContentCollection.Mixin': true

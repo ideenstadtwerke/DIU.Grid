@@ -1,0 +1,23 @@
+prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:ContentComponent) {
+
+    renderer = DIU.Grid:Components.Molecule.Grid.Column.Two {
+
+        classNames = ''
+
+        layout = ${q(node).property('layout')}
+
+        addTopSpacing = ${q(node).property('addTopSpacing')}
+
+        addBottomSpacing = ${q(node).property('addBottomSpacing')}
+
+        column0 = Neos.Neos:ContentCollection {
+            nodePath = 'column0'
+            attributes.class = 'fullheight-stretch'
+        }
+        column1 = Neos.Neos:ContentCollection {
+            nodePath = 'column1'
+            attributes.class = 'fullheight-stretch'
+        }
+    }
+
+}

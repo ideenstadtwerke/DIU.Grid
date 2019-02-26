@@ -1,0 +1,19 @@
+'DIU.Grid:Content.Mixins.Spacing':
+  abstract: true
+  properties:
+    addTopSpacing:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+    addBottomSpacing:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general

@@ -1,0 +1,10 @@
+'DIU.Grid:Content.Structure.Grid.ContentCollection.Mixin':
+  abstract: true
+  constraints:
+    nodeTypes:
+      '*': false
+      'DIU.Grid:Content.Structure.Section': true
+      'DIU.Grid:Content.Structure.Grid.Column.Two': true
+      'DIU.Grid:Content.Structure.Grid.Column.Three': true
+      'DIU.Grid:Content.Structure.Grid.Column.Four': true
+

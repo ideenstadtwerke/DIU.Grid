@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "diu/grid",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DIU\\Grid\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "DIU.Grid"
+        }
+    }
+}

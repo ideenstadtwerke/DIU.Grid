@@ -1,0 +1,79 @@
+'DIU.Grid:Content.Structure.Section':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: i18n
+    position: 100
+    group: 'structure'
+    icon: 'icon-terminal'
+    inspector:
+      groups:
+        general:
+          label: i18n
+          icon: 'icon-settings'
+          tab: 'default'
+          position: 10
+  childNodes:
+    section:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+  properties:
+    title:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: 'i18n'
+            autoparagraph: ~
+            linking: ~
+            formatting:
+              '*': false
+              removeFormat: true
+    subtitle:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            placeholder: 'i18n'
+            autoparagraph: ~
+            linking: ~
+            formatting:
+              '*': false
+              removeFormat: true
+    useHeadlineStyle:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+    showSubtitle:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+
+    offset:
+      type: string
+      defaultValue: 'noSectionOffset'
+      ui:
+        reloadIfChanged: true
+        inspector:
+          group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              noSectionOffset:
+                label: i18n
+              smallSectionOffset:
+                label: i18n
+              mediumSectionOffset:
+                label: i18n
+              largeSectionOffset:
+                label: i18n
+

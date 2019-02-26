@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+             <trans-unit id="ui.label">
+                <source>Section</source>
+                <target>Seitenbereich</target>
+            </trans-unit>
+            <trans-unit id="Content.Structure.Section">
+                <source>Section</source>
+                <target>Seitenbereich</target>
+            </trans-unit>
+            <trans-unit id="groups.general">
+                <source>Section Settings</source>
+                <target>Seitenbereich Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="properties.title">
+                <source>Title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="properties.title.ui.inline.editorOptions.placeholder">
+                <source>type your title here</source>
+                <target>Titel bitte hier eingeben</target>
+            </trans-unit>
+            <trans-unit id="properties.subtitle">
+                <source>Subitle</source>
+                <target>Untertitel</target>
+            </trans-unit>
+            <trans-unit id="properties.subtitle.ui.inline.editorOptions.placeholder">
+                <source>space for a subtitle</source>
+                <target>Untertitel bitte hier eingeben</target>
+            </trans-unit>
+            <trans-unit id="properties.useHeadlineStyle">
+                <source>Headline: white in a blue box</source>
+                <target>Überschrift: Weiß in blauer Box</target>
+            </trans-unit>
+            <trans-unit id="properties.showSubtitle">
+                <source>Show a Subtitle (only for the blue boxed headline)</source>
+                <target>Zeige Untertitel (nur für Überschrift mit blauer box)</target>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.noSectionOffset">
+                <source>no offset</source>
+                <target>kein Offset</target>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.smallSectionOffset">
+                <source>small offset</source>
+                <target>kleiner Offset</target>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.mediumSectionOffset">
+                <source>medium offset</source>
+                <target>mittlerer Offset</target>
+            </trans-unit>
+            <trans-unit id="properties.offset.selectBoxEditor.values.largeSectionOffset">
+                <source>large offset</source>
+                <target>großer Offset</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

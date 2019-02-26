@@ -1,0 +1,69 @@
+prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
+
+    #
+    # Styleguide annotation
+    # if this annotation is present (even when empty)
+    # the prototype is rendered in the styleguide
+    #
+    @styleguide {
+        title = 'Section in the template'
+
+        description = 'Use a section to group content which belongs together. You can also switch between a normal headline or a special styled headline'
+
+        @propTypes {
+            title = ${PropTypes.string}
+            subtitle = ${PropTypes.string}
+            content = ${PropTypes.collection.isRequired}
+            headlineStyle = ${PropTypes.string}
+            offset = ${PropTypes.string}
+            classNames = ${PropTypes.string}
+            showSubtitle= false
+        }
+
+        props {
+            content = 'Content of the section'
+            title = 'Headline of Section'
+            subtitle = 'Subtitle of Section'
+            headlineStyle= 'section-normal-headline'
+            showSubtitle= false
+            offset= 'noSectionOffset'
+            classNames = ''
+        }
+
+        propSets {
+            'Normal Headline' {
+                classNames = 'bright'
+                headlineStyle= 'section-normal-headline'
+            }
+            'Styled Headline' {
+                headlineStyle= 'section-styled-headline'
+            }
+            'Styled Headline with subtitle' {
+                headlineStyle= 'section-styled-headline'
+                subtitle='Bacon ipsum dolor amet pastrami ham hock pork chop bresaola. Picanha corned beef chuck, porchetta shankle leberkas fatback burgdoggen jowl kevin landjaeger andouille. '
+                showSubtitle= true
+            }
+
+        }
+    }
+
+    content = ''
+    title = ''
+    subtitle= ''
+    classNames = ''
+    headlineStyle= 'section-normal-headline'
+    showSubtitle= false
+    offset= 'noSectionOffset'
+
+    renderer = afx`
+        <section class={'atom-section ' + props.classNames + ' ' + props.offset}>
+        <div class={'atom-section-title-bg ' + props.headlineStyle}>
+            <h2 class="title">{props.title}</h2>
+            <div class="atom-section-subtitle" @if.headlineStyle={props.headlineStyle == 'section-styled-headline' && props.showSubtitle}>{props.subtitle}</div>
+        </div>
+            <div class="container-fluid">
+                {props.content}
+            </div>
+        </section>
+    `
+}

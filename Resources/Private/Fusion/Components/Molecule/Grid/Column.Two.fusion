@@ -1,0 +1,72 @@
+prototype(DIU.Grid:Components.Molecule.Grid.Column.Two) < prototype(Neos.Fusion:Component) {
+
+    #
+    # Styleguide annotation
+    # if this annotation is present (even when empty)
+    # the prototype is rendered in the styleguide
+    #
+    @styleguide {
+
+        title = '2 Columns Grid'
+
+        description = 'A two column grid which has the posibility to add a fixed spacing above and below.'
+
+        @propTypes {
+            column0 = ${PropTypes.string.isRequired}
+            column1 = ${PropTypes.string.isRequired}
+            layout = ${PropTypes.string.isRequired}
+            detailPage = ${PropTypes.boolean}
+            classNames = ${PropTypes.string}
+            addTopSpacing = ${PropTypes.boolean}
+            addBottomSpacing = ${PropTypes.boolean}
+        }
+
+        props {
+            column0 = '<h2 style="padding:5px;background-color:white;">Column 1 content</h2>'
+            column1 = '<h2 style="padding:5px;background-color:white;">Column 2 content</h2>'
+            layout = '6-6'
+            classNames = ''
+            detailPage = false
+            addTopSpacing = false
+            addBottomSpacing = false
+        }
+
+        propSets {
+            '6-6' {
+                layout = '6-6'
+            }
+
+            '8-4' {
+                layout = '8-4'
+            }
+
+            '9-3' {
+                layout = '9-3'
+            }
+
+            'Top and Buttom Spacing' {
+                addTopSpacing = true
+                addBottomSpacing = true
+            }
+        }
+    }
+
+    layout = null
+    column0 = null
+    column1 = null
+    classNames = ''
+    detailPage = false
+    addTopSpacing = false
+    addBottomSpacing = false
+
+    #
+    # The code afx`...` is converted to the fusion code below at parse time.
+    # Attention: Currently there is no way to escape closing-backticks inside the Expression.
+    #
+    renderer = afx`
+        <div class={'row molecule-grid molecule-grid-column-two' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
+            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={'col-md-' + String.split(props.layout, '-')[0]} />
+            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={'col-md-' + String.split(props.layout, '-')[1]} />
+        </div>
+    `
+}

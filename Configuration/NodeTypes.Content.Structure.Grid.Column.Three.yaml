@@ -1,0 +1,19 @@
+'DIU.Grid:Content.Structure.Grid.Column.Three':
+  superTypes:
+    'DIU.Grid:Content.Structure.Grid.Mixin': true
+    'DIU.Grid:Content.Mixins.Spacing': true
+  ui:
+    label: i18n
+    position: 300
+  childNodes:
+    column0:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+    column1:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+    column2:
+      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+  properties:
+    layout:
+      defaultValue: 4-4-4
+      ui:
+        inspector: ~

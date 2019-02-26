@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="ui.label">
+                <source>2 Columns</source>
+                <target>2 Spalten</target>
+            </trans-unit>
+            <trans-unit id="properties.layout.selectBoxEditor.values.6-6">
+                <source>Equal columns (6-6 Cols)</source>
+                <target>Gleiche Spalten (6-6)</target>
+            </trans-unit>
+            <trans-unit id="properties.layout.selectBoxEditor.values.8-4">
+                <source>Main column + side column (8-4 Cols)</source>
+                <target>Hauptspalte + Nebenspalte (8-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.layout.selectBoxEditor.values.9-3">
+                <source>Main column + side column (9-3 Cols)</source>
+                <target>Hauptspalte + Nebenspalte (9-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.layout.selectBoxEditor.values.4-8">
+                <source>side column + Main column (4-8 Cols)</source>
+                <target>Nebenspalte + Hauptspalte (4-8)</target>
+            </trans-unit>
+            <trans-unit id="properties.layout.selectBoxEditor.values.3-9">
+                <source>side column + Main column (3-9 Cols)</source>
+                <target>Nebenspalte + Hauptspalte (3-9)</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
