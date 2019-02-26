@@ -4,7 +4,7 @@
     "name": "diu/grid",
     "require": {
         "neos/flow": "*",
-        "neos/fusion-afx": "*",
+        "neos/fusion-afx": "*"
     },
     "suggest": {
         "sitegeist/monocle": "*"
