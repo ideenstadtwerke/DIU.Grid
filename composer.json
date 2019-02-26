@@ -1,6 +1,6 @@
 {
     "description": "",
-    "type": "neos-package",
+    "type": "neos-plugin",
     "name": "diu/grid",
     "require": {
         "neos/flow": "*"
