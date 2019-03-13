@@ -18,10 +18,10 @@
           'DIU.Grid:Content.Structure.Section': false
     column1:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
     column2:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
   properties:
     layout:
       defaultValue: 4-4-4

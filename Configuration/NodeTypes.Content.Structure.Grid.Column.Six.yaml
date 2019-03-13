@@ -18,19 +18,19 @@
           'DIU.Grid:Content.Structure.Section': false
     column1:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
     column2:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
     column3:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
     column4:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
     column5:
       type: 'Neos.Neos:ContentCollection'
-      *nodeTypeConstraints
+      constraints: *nodeTypeConstraints
   properties:
     layout:
       defaultValue: 2-2-2-2-2-2
