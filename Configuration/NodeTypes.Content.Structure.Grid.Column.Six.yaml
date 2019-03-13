@@ -1,4 +1,4 @@
-'DIU.Grid:Content.Structure.Grid.Column.Four':
+'DIU.Grid:Content.Structure.Grid.Column.Six':
   superTypes:
     'DIU.Grid:Content.Structure.Grid.Mixin': true
     'DIU.Grid:Content.Mixins.Spacing': true
@@ -8,16 +8,29 @@
   childNodes:
     column0:
       type: 'Neos.Neos:ContentCollection'
+      constraints: &nodeTypeConstraints
+        nodeTypes:
+          'DIU.Grid:Content.Structure.Grid.Column.One': false
+          'DIU.Grid:Content.Structure.Grid.Column.Two': false
+          'DIU.Grid:Content.Structure.Grid.Column.Three': false
+          'DIU.Grid:Content.Structure.Grid.Column.Four': false
+          'DIU.Grid:Content.Structure.Grid.Column.Six': false
+          'DIU.Grid:Content.Structure.Section': false
     column1:
       type: 'Neos.Neos:ContentCollection'
+      *nodeTypeConstraints
     column2:
       type: 'Neos.Neos:ContentCollection'
+      *nodeTypeConstraints
     column3:
       type: 'Neos.Neos:ContentCollection'
+      *nodeTypeConstraints
     column4:
       type: 'Neos.Neos:ContentCollection'
+      *nodeTypeConstraints
     column5:
       type: 'Neos.Neos:ContentCollection'
+      *nodeTypeConstraints
   properties:
     layout:
       defaultValue: 2-2-2-2-2-2
