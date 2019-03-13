@@ -27,6 +27,7 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
             headlineStyle= 'section-normal-headline'
             showSubtitle= false
             offset= 'noSectionOffset'
+            fluidLayout = ''
             classNames = ''
         }
 
@@ -54,16 +55,15 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
     headlineStyle= 'section-normal-headline'
     showSubtitle= false
     offset= 'noSectionOffset'
+    fluidLayout=''
 
     renderer = afx`
-        <section class={'atom-section ' + props.classNames + ' ' + props.offset}>
-        <div class={'atom-section-title-bg ' + props.headlineStyle}>
-            <h2 class="title">{props.title}</h2>
-            <div class="atom-section-subtitle" @if.headlineStyle={props.headlineStyle == 'section-styled-headline' && props.showSubtitle}>{props.subtitle}</div>
-        </div>
-            <div class="container-fluid">
-                {props.content}
+        <section class={'atom-section container' + props.fluidLayout + ' ' + props.classNames + ' ' + props.offset}>
+            <div class={'atom-section-title-bg ' + props.headlineStyle}>
+                <h2 class="title">{props.title}</h2>
+                <div class="atom-section-subtitle" @if.headlineStyle={props.headlineStyle == 'section-styled-headline' && props.showSubtitle}>{props.subtitle}</div>
             </div>
+            {props.content}
         </section>
     `
 }

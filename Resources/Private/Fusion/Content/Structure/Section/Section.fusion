@@ -14,6 +14,8 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
 
         showSubtitle = ${q(node).property('showSubtitle')}
 
+        fluidLayout = ${q(node).property('fluidLayout') ? '-fluid' : ''}
+
         offset = ${q(node).property('offset')}
 
         content = Neos.Neos:PrimaryContent {

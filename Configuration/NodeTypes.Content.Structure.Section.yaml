@@ -29,19 +29,7 @@
             formatting:
               '*': false
               removeFormat: true
-    subtitle:
-      type: string
-      ui:
-        inlineEditable: true
-        inline:
-          editorOptions:
-            placeholder: 'i18n'
-            autoparagraph: ~
-            linking: ~
-            formatting:
-              '*': false
-              removeFormat: true
-    useHeadlineStyle:
+    fluidLayout:
       type: boolean
       defaultValue: false
       ui:
@@ -49,15 +37,6 @@
         reloadIfChanged: true
         inspector:
           group: general
-    showSubtitle:
-      type: boolean
-      defaultValue: false
-      ui:
-        label: i18n
-        reloadIfChanged: true
-        inspector:
-          group: general
-
     offset:
       type: string
       defaultValue: 'noSectionOffset'
@@ -69,11 +48,5 @@
           editorOptions:
             values:
               noSectionOffset:
-                label: i18n
-              smallSectionOffset:
-                label: i18n
-              mediumSectionOffset:
-                label: i18n
-              largeSectionOffset:
                 label: i18n
 
