@@ -1,0 +1,48 @@
+prototype(DIU.Grid:Components.Atom.Column) < prototype(Neos.Fusion:Component) {
+
+    #
+    # Styleguide annotation
+    # if this annotation is present (even when empty)
+    # the prototype is rendered in the styleguide
+    #
+    @styleguide {
+
+        #
+        # The title of the component
+        # Optional:  by default the component name is splitted and reversed
+        #
+        title = 'Atom Column'
+
+        #
+        # A description of the component
+        # Optional: By default empty.
+        #
+        description = 'A Column Prototype ....'
+        @propTypes {
+            content = ${PropTypes.string.isRequired}
+            classNames = ${PropTypes.string}
+        }
+
+        #
+        # Fusion-props to override during the styleguide rendering
+        # Optional: By default empty.
+        #
+        props {
+            content = ''
+            classNames = 'col-sm'
+        }
+    }
+
+    content = ''
+    classNames = ''
+
+    #
+    # The code afx`...` is converted to the fusion code below at parse time.
+    # Attention: Currently there is no way to escape closing-backticks inside the Expression.
+    #
+    renderer = afx`
+        <div class={'atom-column ' + props.classNames}>
+            {props.content}
+        </div>
+    `
+}

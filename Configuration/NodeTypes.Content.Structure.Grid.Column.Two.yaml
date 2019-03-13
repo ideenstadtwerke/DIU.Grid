@@ -1,4 +1,4 @@
-'DIU.GridCom:Content.Structure.Grid.Column.Two':
+'DIU.Grid:Content.Structure.Grid.Column.Two':
   superTypes:
     'DIU.Grid:Content.Structure.Grid.Mixin': true
     'DIU.Grid:Content.Mixins.Spacing': true
