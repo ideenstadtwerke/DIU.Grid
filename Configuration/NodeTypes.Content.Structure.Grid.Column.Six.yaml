@@ -14,13 +14,17 @@
       type: 'Neos.Neos:ContentCollection'
     column3:
       type: 'Neos.Neos:ContentCollection'
+    column4:
+      type: 'Neos.Neos:ContentCollection'
+    column5:
+      type: 'Neos.Neos:ContentCollection'
   properties:
     layout:
-      defaultValue: 3-3-3-3
+      defaultValue: 2-2-2-2-2-2
       ui:
         inspector:
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             values:
-              3-3-3-3:
+              2-2-2-2-2-2:
                 label: i18n

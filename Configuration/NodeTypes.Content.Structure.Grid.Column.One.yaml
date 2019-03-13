@@ -7,16 +7,4 @@
     position: 200
   childNodes:
     column0:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
-    column1:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
-  properties:
-    layout:
-      defaultValue: 7
-      ui:
-        inspector:
-          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
-          editorOptions:
-            values:
-              7:
-                label: i18n
+      type: 'Neos.Neos:ContentCollection'

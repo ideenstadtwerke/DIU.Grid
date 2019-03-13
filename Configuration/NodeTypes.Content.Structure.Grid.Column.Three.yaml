@@ -7,11 +7,11 @@
     position: 300
   childNodes:
     column0:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+      type: 'Neos.Neos:ContentCollection'
     column1:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+      type: 'Neos.Neos:ContentCollection'
     column2:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+      type: 'Neos.Neos:ContentCollection'
   properties:
     layout:
       defaultValue: 4-4-4
