@@ -47,7 +47,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNamaes="col-md-12" />
+            <DIU.Grid:Components.Atom.Column content={props.column0} classNames="col-md-12" />
         </div>
     `
 }
