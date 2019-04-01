@@ -5,6 +5,9 @@
             <trans-unit id="groups.general">
                 <source>Grid settings</source>
             </trans-unit>
+            <trans-unit id="properties.layout">
+                <source>Layout</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

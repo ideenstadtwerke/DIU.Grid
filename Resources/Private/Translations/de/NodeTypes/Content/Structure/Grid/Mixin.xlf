@@ -6,6 +6,10 @@
                 <source>Grid settings</source>
                 <target>Gitter Einstellungen</target>
             </trans-unit>
+            <trans-unit id="properties.layout">
+                <source>Layout</source>
+                <target>Layout</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
