@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.HafencityCom" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.addTopSpacing">
+                <source>Add top spacing</source>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacing">
+                <source>Add bottom spacing</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
