@@ -17,4 +17,7 @@
           'DIU.Grid:Content.Structure.Grid.Column.Six': false
           'DIU.Grid:Content.Structure.Section': false
   properties:
-    layout: ~
+    layout:
+      defaultValue: ''
+      ui:
+        inspector: ~
