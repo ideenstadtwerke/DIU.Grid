@@ -27,3 +27,9 @@
       defaultValue: 4-4-4
       ui:
         inspector: ~
+    mobileLayout:
+      ui:
+        inspector: ~
+    tabletLayout:
+      ui:
+        inspector: ~

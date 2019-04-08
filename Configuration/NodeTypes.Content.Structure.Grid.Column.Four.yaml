@@ -35,3 +35,9 @@
             values:
               3-3-3-3:
                 label: i18n
+    mobileLayout:
+      ui:
+        inspector: ~
+    tabletLayout:
+      ui:
+        inspector: ~

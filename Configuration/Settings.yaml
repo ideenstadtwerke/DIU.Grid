@@ -13,3 +13,6 @@ Neos:
     fusion:
       autoInclude:
         'DIU.Grid': true
+  Fusion:
+    defaultContext:
+      'DIU.Grid' : 'DIU\Grid\Eel\Helper'

@@ -41,3 +41,9 @@
             values:
               2-2-2-2-2-2:
                 label: i18n
+    mobileLayout:
+      ui:
+        inspector: ~
+    tabletLayout:
+      ui:
+        inspector: ~

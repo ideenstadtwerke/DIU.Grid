@@ -4,9 +4,9 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:Cont
 
         classNames = ''
 
-        layout = ${String.split(q(node).property('layout'), '-')}
-        mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
-        tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
+        @context.desktopLayout = ${String.split(q(node).property('desktopLayout'), '-')}
+        @context.mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
+        @context.tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
 
         addTopSpacing = ${q(node).property('addTopSpacing')}
 
@@ -21,9 +21,22 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:Cont
             attributes.class = 'fullheight-stretch'
         }
 
-        columnWidths = Neos.Fusion:DataStructure{
-            0 = ${'col-sm-' + this.mobileLayout[0] + ' col-md-' + this.tabletLayout[0] + ' col-lg-' + this.layout[0]}
-            1 = ${'col-sm-' + this.mobileLayout[1] + ' col-md-' + this.tabletLayout[1] + ' col-lg-' + this.layout[1]}
+        columnData = Neos.Fusion:DataStructure{
+            sm = Neos.Fusion:DataStructure {
+                offset = ${mobileLayout[0]}
+                col0 = ${mobileLayout[1]}
+                col1 = ${mobileLayout[2]}
+            }
+            md = Neos.Fusion:DataStructure {
+                offset = ${tabletLayout[0]}
+                col0 = ${tabletLayout[0]}
+                col1 = ${tabletLayout[1]}
+            }
+            lg = Neos.Fusion.DataStructure {
+                offset = ${desktopLayout[0]}
+                col0 = ${desktopLayout[1]}
+                col1 = ${desktopLayout[2]}
+            }
         }
     }
 

@@ -24,3 +24,9 @@
       defaultValue: 6-6
       ui:
         inspector: ~
+    mobileLayout:
+      ui:
+        inspector: ~
+    tabletLayout:
+      ui:
+        inspector: ~
