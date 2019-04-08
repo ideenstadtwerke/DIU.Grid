@@ -15,4 +15,4 @@ Neos:
         'DIU.Grid': true
   Fusion:
     defaultContext:
-      'DIU.Grid' : 'DIU\Grid\Eel\Helper'
+      'DIU.Grid' : 'DIU\Grid\Eel\Helper\GridHelper'

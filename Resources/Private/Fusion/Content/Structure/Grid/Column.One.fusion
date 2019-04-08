@@ -15,6 +15,23 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
         column0 = Neos.Neos:ContentCollection {
             nodePath = 'column0'
         }
+
+        columnData = Neos.Fusion:DataStructure{
+            sm = Neos.Fusion:DataStructure {
+                offset = ${mobileLayout[0]}
+                col0 = ${mobileLayout[1]}
+            }
+            md = Neos.Fusion:DataStructure {
+                offset = ${tabletLayout[0]}
+                col0 = ${tabletLayout[1]}
+            }
+            lg = Neos.Fusion.DataStructure {
+                offset = ${desktopLayout[0]}
+                col0 = ${desktopLayout[1]}
+            }
+        }
+
+        columnWidth0 = ${DIU.Grid.assembleClassNames(this.columnData, 0)}
     }
 
 }

@@ -16,6 +16,9 @@
         tablet:
           label: i18n
           icon: 'icon-tablet-alt'
+        desktop:
+          label: i18n
+          icon: 'icon-desktop'
       groups:
         column:
           label: i18n
@@ -34,6 +37,10 @@
           label: i18n
           icon: 'icon-tablet-alt'
           tab: 'tablet'
+        desktop:
+          label: i18n
+          icon: 'icon-desktop'
+          tab: 'desktop'
   properties:
     desktopLayout:
       type: string
@@ -41,7 +48,7 @@
         label: i18n
         reloadIfChanged: true
         inspector:
-          group: general
+          group: desktop
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
     mobileLayout:
       type: string

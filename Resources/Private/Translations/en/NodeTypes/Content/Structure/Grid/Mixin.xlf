@@ -5,7 +5,7 @@
             <trans-unit id="groups.general">
                 <source>Grid settings</source>
             </trans-unit>
-            <trans-unit id="properties.layout">
+            <trans-unit id="properties.desktopLayout">
                 <source>Layout</source>
             </trans-unit>
              <trans-unit id="properties.mobileLayout">

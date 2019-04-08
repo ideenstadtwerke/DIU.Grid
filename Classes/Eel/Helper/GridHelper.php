@@ -31,6 +31,8 @@ class GridHelper implements ProtectedContextAwareInterface
     }
 
     /**
+     * Read entry from array for a single breakpoint
+     *
      * @param $breakpoint e. g. 'lg' for desktop
      * @param $columnData array containing arrays for each breakpoint
      * @param $column zero-based index of the column
@@ -38,11 +40,11 @@ class GridHelper implements ProtectedContextAwareInterface
      */
     private function readBreakpoint($breakpoint, $columnData, $column){
         $result = '';
-        if($columnData[$breakpoint]){
-            if($column === 0 && $columnData[$breakpoint]['offset']){
+        if(isset($columnData[$breakpoint])){
+            if($column === 0 && isset($columnData[$breakpoint]['offset']) && && $columnData[$breakpoint]['offset'] !== '0'){
                 $result .= 'offset-' . $breakpoint . '-' . $columnData[$breakpoint]['offset'];
             }
-            if($columnData[$breakpoint][$column]){
+            if(isset($columnData[$breakpoint]['col' . $column])){
                 $result .= ' col-'. $breakpoint . '-' . $columnData[$breakpoint]['col' . $column];
             }
         }

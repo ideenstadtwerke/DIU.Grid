@@ -25,11 +25,30 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Three) < prototype(Neos.Neos:Co
             attributes.class = 'fullheight-stretch'
         }
 
-        columnWidths = Neos.Fusion:DataStructure{
-            0 = ${'col-sm-' + this.mobileLayout[0] + ' col-md-' + this.tabletLayout[0] + ' col-lg-' + this.layout[0]}
-            1 = ${'col-sm-' + this.mobileLayout[1] + ' col-md-' + this.tabletLayout[1] + ' col-lg-' + this.layout[1]}
-            2 = ${'col-sm-' + this.mobileLayout[2] + ' col-md-' + this.tabletLayout[2] + ' col-lg-' + this.layout[2]}
+        columnData = Neos.Fusion:DataStructure{
+            sm = Neos.Fusion:DataStructure {
+                offset = ${mobileLayout[0]}
+                col0 = ${mobileLayout[1]}
+                col1 = ${mobileLayout[2]}
+                col2 = ${mobileLayout[3]}
+            }
+            md = Neos.Fusion:DataStructure {
+                offset = ${tabletLayout[0]}
+                col0 = ${tabletLayout[1]}
+                col1 = ${tabletLayout[2]}
+                col2 = ${tabletLayout[3]}
+            }
+            lg = Neos.Fusion.DataStructure {
+                offset = ${desktopLayout[0]}
+                col0 = ${desktopLayout[1]}
+                col1 = ${desktopLayout[2]}
+                col2 = ${desktopLayout[3]}
+            }
         }
+
+        columnWidth0 = ${DIU.Grid.assembleClassNames(this.columnData, 0)}
+        columnWidth1 = ${DIU.Grid.assembleClassNames(this.columnData, 1)}
+        columnWidth2 = ${DIU.Grid.assembleClassNames(this.columnData, 2)}
     }
 
 }

@@ -6,7 +6,7 @@
                 <source>Grid settings</source>
                 <target>Gitter Einstellungen</target>
             </trans-unit>
-            <trans-unit id="properties.layout">
+            <trans-unit id="properties.desktopLayout">
                 <source>Layout</source>
                 <target>Layout</target>
             </trans-unit>

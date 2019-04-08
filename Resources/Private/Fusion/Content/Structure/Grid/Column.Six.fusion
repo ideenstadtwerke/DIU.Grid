@@ -31,13 +31,42 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
             nodePath = 'column5'
         }
 
-        columnWidths = Neos.Fusion:DataStructure{
-            0 = ${'col-sm-' + this.mobileLayout[0] + ' col-md-' + this.tabletLayout[0] + ' col-lg-' + this.layout[0]}
-            1 = ${'col-sm-' + this.mobileLayout[1] + ' col-md-' + this.tabletLayout[1] + ' col-lg-' + this.layout[1]}
-            2 = ${'col-sm-' + this.mobileLayout[2] + ' col-md-' + this.tabletLayout[2] + ' col-lg-' + this.layout[2]}
-            3 = ${'col-sm-' + this.mobileLayout[3] + ' col-md-' + this.tabletLayout[3] + ' col-lg-' + this.layout[3]}
-            4 = ${'col-sm-' + this.mobileLayout[4] + ' col-md-' + this.tabletLayout[4] + ' col-lg-' + this.layout[4]}
-            5 = ${'col-sm-' + this.mobileLayout[5] + ' col-md-' + this.tabletLayout[5] + ' col-lg-' + this.layout[5]}
+        columnData = Neos.Fusion:DataStructure{
+            sm = Neos.Fusion:DataStructure {
+                offset = ${mobileLayout[0]}
+                col0 = ${mobileLayout[1]}
+                col1 = ${mobileLayout[2]}
+                col2 = ${mobileLayout[3]}
+                col3 = ${mobileLayout[4]}
+                col4 = ${mobileLayout[5]}
+                col5 = ${mobileLayout[6]}
+            }
+            md = Neos.Fusion:DataStructure {
+                offset = ${tabletLayout[0]}
+                col0 = ${tabletLayout[1]}
+                col1 = ${tabletLayout[2]}
+                col2 = ${tabletLayout[3]}
+                col3 = ${tabletLayout[4]}
+                col4 = ${tabletLayout[5]}
+                col5 = ${tabletLayout[6]}
+            }
+            lg = Neos.Fusion.DataStructure {
+                offset = ${desktopLayout[0]}
+                col0 = ${desktopLayout[1]}
+                col1 = ${desktopLayout[2]}
+                col2 = ${desktopLayout[3]}
+                col3 = ${desktopLayout[4]}
+                col4 = ${desktopLayout[5]}
+                col5 = ${desktopLayout[6]}
+            }
+        }
+
+        columnWidth0 = ${DIU.Grid.assembleClassNames(this.columnData, 0)}
+        columnWidth1 = ${DIU.Grid.assembleClassNames(this.columnData, 1)}
+        columnWidth2 = ${DIU.Grid.assembleClassNames(this.columnData, 2)}
+        columnWidth3 = ${DIU.Grid.assembleClassNames(this.columnData, 3)}
+        columnWidth4 = ${DIU.Grid.assembleClassNames(this.columnData, 4)}
+        columnWidth5 = ${DIU.Grid.assembleClassNames(this.columnData, 5)}
         }
     }
 
