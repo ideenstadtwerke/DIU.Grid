@@ -25,7 +25,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
                 offset = ${tabletLayout[0]}
                 col0 = ${tabletLayout[1]}
             }
-            lg = Neos.Fusion.DataStructure {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
             }

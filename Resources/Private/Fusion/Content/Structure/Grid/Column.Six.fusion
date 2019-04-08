@@ -50,7 +50,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
                 col4 = ${tabletLayout[5]}
                 col5 = ${tabletLayout[6]}
             }
-            lg = Neos.Fusion.DataStructure {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}

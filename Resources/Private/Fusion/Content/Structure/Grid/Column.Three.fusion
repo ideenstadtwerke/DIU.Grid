@@ -38,7 +38,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Three) < prototype(Neos.Neos:Co
                 col1 = ${tabletLayout[2]}
                 col2 = ${tabletLayout[3]}
             }
-            lg = Neos.Fusion.DataStructure {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}
