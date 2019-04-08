@@ -8,6 +8,12 @@
             <trans-unit id="properties.layout">
                 <source>Layout</source>
             </trans-unit>
+             <trans-unit id="properties.mobileLayout">
+                <source>Mobile Layout</source>
+            </trans-unit>
+             <trans-unit id="properties.tabletLayout">
+                <source>Tablet Layout</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

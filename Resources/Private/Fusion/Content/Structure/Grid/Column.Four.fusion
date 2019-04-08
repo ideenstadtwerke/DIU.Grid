@@ -4,7 +4,9 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Four) < prototype(Neos.Neos:Con
 
         classNames = ''
 
-        layout = ${q(node).property('layout')}
+        layout = ${String.split(q(node).property('layout'), '-')}
+        mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
+        tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
 
         addTopSpacing = ${q(node).property('addTopSpacing')}
 
@@ -21,6 +23,13 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Four) < prototype(Neos.Neos:Con
         }
         column3 = Neos.Neos:ContentCollection {
             nodePath = 'column3'
+        }
+
+        columnWidths = Neos.Fusion:DataStructure{
+            0 = ${'col-sm-' + this.mobileLayout[0] + ' col-md-' + this.tabletLayout[0] + ' col-lg-' + this.layout[0]}
+            1 = ${'col-sm-' + this.mobileLayout[1] + ' col-md-' + this.tabletLayout[1] + ' col-lg-' + this.layout[1]}
+            2 = ${'col-sm-' + this.mobileLayout[2] + ' col-md-' + this.tabletLayout[2] + ' col-lg-' + this.layout[2]}
+            3 = ${'col-sm-' + this.mobileLayout[3] + ' col-md-' + this.tabletLayout[3] + ' col-lg-' + this.layout[3]}
         }
     }
 

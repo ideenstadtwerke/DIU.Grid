@@ -9,6 +9,13 @@
     icon: 'icon-columns'
     inlineEditable: true
     inspector:
+      tabs:
+        mobile:
+          label: i18n
+          icon: 'icon-mobile-alt'
+        tablet:
+          label: i18n
+          icon: 'icon-tablet-alt'
       groups:
         column:
           label: i18n
@@ -19,8 +26,32 @@
           icon: 'icon-settings'
           tab: 'default'
           position: 10
+        mobile:
+          label: i18n
+          icon: 'icon-mobile-alt'
+          tab: 'mobile'
+        tablet:
+          label: i18n
+          icon: 'icon-tablet-alt'
+          tab: 'tablet'
   properties:
     layout:
+      type: string
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+    mobileLayout:
+      type: string
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+    tabletLayout:
       type: string
       ui:
         label: i18n

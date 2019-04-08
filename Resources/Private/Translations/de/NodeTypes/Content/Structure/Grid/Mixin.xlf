@@ -10,6 +10,14 @@
                 <source>Layout</source>
                 <target>Layout</target>
             </trans-unit>
+            <trans-unit id="properties.mobileLayout">
+                <source>Mobile Layout</source>
+                <target>Mobile Layout</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout">
+                <source>Tablet Layout</source>
+                <target>Tablet Layout</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

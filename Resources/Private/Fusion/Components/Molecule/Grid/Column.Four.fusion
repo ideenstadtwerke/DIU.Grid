@@ -49,6 +49,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
     classNames = ''
     addTopSpacing = false
     addBottomSpacing = false
+    columnWidths = ${[]}
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -56,10 +57,10 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-four' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={'col-md-' + String.split(props.layout, '-')[0]} />
-            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={'col-md-' + String.split(props.layout, '-')[1]} />
-            <DIU.Grid:Components.Atom.Column content={props.column2} classNames={'col-md-' + String.split(props.layout, '-')[2]} />
-            <DIU.Grid:Components.Atom.Column content={props.column3} classNames={'col-md-' + String.split(props.layout, '-')[3]} />
+            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={columnWidths[0]} />
+            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={columnWidths[1]} />
+            <DIU.Grid:Components.Atom.Column content={props.column2} classNames={columnWidths[2]} />
+            <DIU.Grid:Components.Atom.Column content={props.column3} classNames={columnWidths[3]} />
         </div>
     `
 }

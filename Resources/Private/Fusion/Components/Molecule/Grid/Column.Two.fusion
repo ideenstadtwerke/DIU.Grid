@@ -58,6 +58,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Two) < prototype(Neos.Fusion:
     detailPage = false
     addTopSpacing = false
     addBottomSpacing = false
+    columnWidths = ${[]}
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -65,8 +66,8 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Two) < prototype(Neos.Fusion:
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-two' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={'col-md-' + String.split(props.layout, '-')[0]} />
-            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={'col-md-' + String.split(props.layout, '-')[1]} />
+            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={props.columnWidths[0]} />
+            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={props.columnWidths[1]} />
         </div>
     `
 }
