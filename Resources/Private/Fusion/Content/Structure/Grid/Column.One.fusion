@@ -4,9 +4,9 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
 
         classNames = ''
 
-        layout = ${q(node).property('layout')}
-        mobileLayout = ${q(node).property('mobileLayout')}
-        tabletLayout = ${q(node).property('tabletLayout')}
+        @context.desktopLayout = ${q(node).property('desktopLayout')}
+        @context.mobileLayout = ${q(node).property('mobileLayout')}
+        @context.tabletLayout = ${q(node).property('tabletLayout')}
 
         addTopSpacing = ${q(node).property('addTopSpacing')}
 
