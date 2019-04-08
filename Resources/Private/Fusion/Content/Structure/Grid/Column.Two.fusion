@@ -22,7 +22,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:Cont
         }
 
         columnData = Neos.Fusion:DataStructure{
-            sm = Neos.Fusion:DataStructure {
+            xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
                 col1 = ${mobileLayout[2]}
@@ -32,7 +32,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:Cont
                 col0 = ${tabletLayout[1]}
                 col1 = ${tabletLayout[2]}
             }
-            lg = Neos.Fusion.DataStructure {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}

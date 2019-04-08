@@ -17,7 +17,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
         }
 
         columnData = Neos.Fusion:DataStructure{
-            sm = Neos.Fusion:DataStructure {
+            xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
             }
