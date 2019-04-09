@@ -5,8 +5,8 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Three) < prototype(Neos.Neos:Co
         classNames = ''
 
         @context.desktopLayout = ${String.split(q(node).property('desktopLayout'), '-')}
-        mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
-        tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
+        @context.mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
+        @context.tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
 
         addTopSpacing = ${q(node).property('addTopSpacing')}
 
