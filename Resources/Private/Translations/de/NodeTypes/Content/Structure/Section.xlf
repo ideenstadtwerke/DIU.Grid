@@ -38,25 +38,9 @@
                 <source>Show a Subtitle (only for the blue boxed headline)</source>
                 <target>Zeige Untertitel (nur für Überschrift mit blauer box)</target>
             </trans-unit>
-            <trans-unit id="fluidLayout">
+            <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
                 <target>Fluid Container / Volle Bildschirmbreite</target>
-            </trans-unit>
-            <trans-unit id="properties.offset.selectBoxEditor.values.noSectionOffset">
-                <source>no offset</source>
-                <target>kein Offset</target>
-            </trans-unit>
-            <trans-unit id="properties.offset.selectBoxEditor.values.smallSectionOffset">
-                <source>small offset</source>
-                <target>kleiner Offset</target>
-            </trans-unit>
-            <trans-unit id="properties.offset.selectBoxEditor.values.mediumSectionOffset">
-                <source>medium offset</source>
-                <target>mittlerer Offset</target>
-            </trans-unit>
-            <trans-unit id="properties.offset.selectBoxEditor.values.largeSectionOffset">
-                <source>large offset</source>
-                <target>großer Offset</target>
             </trans-unit>
         </body>
     </file>
