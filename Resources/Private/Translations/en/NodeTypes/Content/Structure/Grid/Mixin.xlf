@@ -14,6 +14,15 @@
              <trans-unit id="properties.tabletLayout">
                 <source>Tablet Layout</source>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.placeholder">
+                <source>Select desktop layout</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.placeholder">
+                <source>Select tablet layout</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.placeholder">
+                <source>Select mobile layout</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -18,6 +18,18 @@
                 <source>Tablet Layout</source>
                 <target>Tablet Layout</target>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.placeholder">
+                <source>Select desktop layout</source>
+                <target>Desktop-Layout auswählen</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.placeholder">
+                <source>Select tablet layout</source>
+                <target>Tablet-Layout auswählen</target>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.placeholder">
+                <source>Select mobile layout</source>
+                <target>Mobile-Layout auswählen</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
