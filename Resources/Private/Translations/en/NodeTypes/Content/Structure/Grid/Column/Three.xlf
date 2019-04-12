@@ -5,14 +5,11 @@
             <trans-unit id="ui.label">
                 <source>3 Columns</source>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.4-4-4">
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-4-4-4">
                 <source>Equal columns (4-4-4 Cols)</source>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.44-44-44">
-                <source>2 wide cols + smaller col (4-4-4 Cols)</source>
-            </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.5-5-2">
-                <source>2 Big cols + small col (5-5-2 Cols)</source>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-4-4">
+                <source>Equal columns (4-4-4 Cols)</source>
             </trans-unit>
         </body>
     </file>

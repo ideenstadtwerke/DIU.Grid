@@ -5,7 +5,10 @@
             <trans-unit id="ui.label">
                 <source>6 Columns</source>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.2-2-2-2-2-2">
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-2-2-2-2-2-2">
+                <source>Equal columns (2-2-2-2-2-2 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-2-2-2-2-2-2">
                 <source>Equal columns (2-2-2-2-2-2 Cols)</source>
             </trans-unit>
         </body>

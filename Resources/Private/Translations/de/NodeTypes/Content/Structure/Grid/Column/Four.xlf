@@ -6,7 +6,11 @@
                 <source>4 Columns</source>
                 <target>4 Spalten</target>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.3-3-3-3">
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-3-3-3-3">
+                <source>Equal columns (3-3-3-3 Cols)</source>
+                <target>Gleiche Spalten (3-3-3-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-3-3-3">
                 <source>Equal columns (3-3-3-3 Cols)</source>
                 <target>Gleiche Spalten (3-3-3-3)</target>
             </trans-unit>

@@ -41,14 +41,6 @@
             values:
               0-2-2-2-2-2-2:
                 label: i18n
-    mobileLayout:
-      ui:
-        inspector:
-          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
-          editorOptions:
-            values:
-              0-2-2-2-2-2-2:
-                label: i18n
     tabletLayout:
       ui:
         inspector:
@@ -57,3 +49,6 @@
             values:
               0-2-2-2-2-2-2:
                 label: i18n
+    mobileLayout:
+      ui:
+        inspector: ~

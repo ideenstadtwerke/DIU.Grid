@@ -6,7 +6,11 @@
                 <source>6 Columns</source>
                 <target>6 Spalten</target>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.0-2-2-2-2-2-2">
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-2-2-2-2-2-2">
+                <source>Equal columns (2-2-2-2-2-2 Cols)</source>
+                <target>Gleiche Spalten (2-2-2-2-2-2)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-2-2-2-2-2-2">
                 <source>Equal columns (2-2-2-2-2-2 Cols)</source>
                 <target>Gleiche Spalten (2-2-2-2-2-2)</target>
             </trans-unit>

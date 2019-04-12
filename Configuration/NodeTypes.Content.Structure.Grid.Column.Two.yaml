@@ -21,12 +21,29 @@
       constraints: *nodeTypeConstraints
   properties:
     desktopLayout:
-      defaultValue: 6-6
+      defaultValue: 0-6-6
       ui:
-        inspector: ~
-    mobileLayout:
-      ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-6-6:
+                label: i18n
     tabletLayout:
+      defaultValue: 0-6-6
       ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-6-6:
+                label: i18n
+    mobileLayout:
+      defaultValue: 0-6-6
+      ui:
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-6-6:
+                label: i18n

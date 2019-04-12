@@ -5,20 +5,8 @@
             <trans-unit id="ui.label">
                 <source>2 Columns</source>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.6-6">
+            <trans-unit id="properties.layout.selectBoxEditor.values.0-6-6">
                 <source>Equal columns (6-6 Cols)</source>
-            </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.8-4">
-                <source>Main column + side column (8-4 Cols)</source>
-            </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.9-3">
-                <source>Main column + side column (9-3 Cols)</source>
-            </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.4-8">
-                <source>side column + Main column (4-8 Cols)</source>
-            </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.3-9">
-                <source>side column + Main column (3-9 Cols)</source>
             </trans-unit>
         </body>
     </file>
