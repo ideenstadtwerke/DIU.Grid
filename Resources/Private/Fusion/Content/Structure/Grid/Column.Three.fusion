@@ -25,20 +25,20 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Three) < prototype(Neos.Neos:Co
             attributes.class = 'fullheight-stretch'
         }
 
-        columnData = Neos.Fusion:RawArray{
-            xs = Neos.Fusion:RawArray {
+        columnData = Neos.Fusion:DataStructure{
+            xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
                 col1 = ${mobileLayout[2]}
                 col2 = ${mobileLayout[3]}
             }
-            md = Neos.Fusion:RawArray {
+            md = Neos.Fusion:DataStructure {
                 offset = ${tabletLayout[0]}
                 col0 = ${tabletLayout[1]}
                 col1 = ${tabletLayout[2]}
                 col2 = ${tabletLayout[3]}
             }
-            lg = Neos.Fusion:RawArray {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}

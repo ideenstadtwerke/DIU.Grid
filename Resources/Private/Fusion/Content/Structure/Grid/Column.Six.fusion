@@ -31,8 +31,8 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
             nodePath = 'column5'
         }
 
-        columnData = Neos.Fusion:RawArray{
-            xs = Neos.Fusion:RawArray {
+        columnData = Neos.Fusion:DataStructure{
+            xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
                 col1 = ${mobileLayout[2]}
@@ -41,7 +41,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
                 col4 = ${mobileLayout[5]}
                 col5 = ${mobileLayout[6]}
             }
-            md = Neos.Fusion:RawArray {
+            md = Neos.Fusion:DataStructure {
                 offset = ${tabletLayout[0]}
                 col0 = ${tabletLayout[1]}
                 col1 = ${tabletLayout[2]}
@@ -50,7 +50,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
                 col4 = ${tabletLayout[5]}
                 col5 = ${tabletLayout[6]}
             }
-            lg = Neos.Fusion:RawArray {
+            lg = Neos.Fusion:DataStructure {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}
