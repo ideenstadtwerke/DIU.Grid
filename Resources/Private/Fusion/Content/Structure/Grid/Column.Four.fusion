@@ -25,22 +25,22 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Four) < prototype(Neos.Neos:Con
             nodePath = 'column3'
         }
 
-        columnData = Neos.Fusion:DataStructure{
-            xs = Neos.Fusion:DataStructure {
+        columnData = Neos.Fusion:RawArray {
+            xs = Neos.Fusion:RawArray {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
                 col1 = ${mobileLayout[2]}
                 col2 = ${mobileLayout[3]}
                 col3 = ${mobileLayout[4]}
             }
-            md = Neos.Fusion:DataStructure {
+            md = Neos.Fusion:RawArray {
                 offset = ${tabletLayout[0]}
                 col0 = ${tabletLayout[1]}
                 col1 = ${tabletLayout[2]}
                 col2 = ${tabletLayout[3]}
                 col3 = ${tabletLayout[4]}
             }
-            lg = Neos.Fusion:DataStructure {
+            lg = Neos.Fusion:RawArray {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
                 col1 = ${desktopLayout[2]}

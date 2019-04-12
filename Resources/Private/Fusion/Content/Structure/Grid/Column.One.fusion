@@ -16,16 +16,16 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
             nodePath = 'column0'
         }
 
-        columnData = Neos.Fusion:DataStructure{
-            xs = Neos.Fusion:DataStructure {
+        columnData = Neos.Fusion:RawArray{
+            xs = Neos.Fusion:RawArray {
                 offset = ${mobileLayout[0]}
                 col0 = ${mobileLayout[1]}
             }
-            md = Neos.Fusion:DataStructure {
+            md = Neos.Fusion:RawArray {
                 offset = ${tabletLayout[0]}
                 col0 = ${tabletLayout[1]}
             }
-            lg = Neos.Fusion:DataStructure {
+            lg = Neos.Fusion:RawArray {
                 offset = ${desktopLayout[0]}
                 col0 = ${desktopLayout[1]}
             }

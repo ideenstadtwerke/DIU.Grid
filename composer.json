@@ -3,7 +3,7 @@
     "type": "neos-plugin",
     "name": "diu/grid",
     "require": {
-        "neos/flow": "*",
+        "neos/neos": "3.3.* || 4.0.* || 4.1.*",
         "neos/fusion-afx": "*"
     },
     "suggest": {
