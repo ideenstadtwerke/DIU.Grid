@@ -20,7 +20,7 @@
       type: 'Neos.Neos:ContentCollection'
       constraints: *nodeTypeConstraints
   properties:
-    layout:
+    desktopLayout:
       defaultValue: 6-6
       ui:
         inspector: ~

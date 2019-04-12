@@ -21,7 +21,7 @@ class GridHelper implements ProtectedContextAwareInterface
 
         $result = '';
 
-        $breakpoints = ['xs', 'md', 'lg'];
+        $breakpoints = ['xs', 'sm', 'md', 'lg'];
 
         foreach($breakpoints as $breakpoint){
             $result .= $this->readBreakpoint($breakpoint, $columnData, $column);
@@ -45,7 +45,11 @@ class GridHelper implements ProtectedContextAwareInterface
                 $result .= 'offset-' . $breakpoint . '-' . $columnData[$breakpoint]['offset'];
             }
             if(isset($columnData[$breakpoint]['col' . $column])){
-                $result .= ' col-'. $breakpoint . '-' . $columnData[$breakpoint]['col' . $column];
+                if ($breakpoint === 'xs') {
+                    $result .= ' col-'. $columnData[$breakpoint]['col' . $column];
+                } else {
+                    $result .= ' col-'. $breakpoint . '-' . $columnData[$breakpoint]['col' . $column];
+                }
             }
         }
 

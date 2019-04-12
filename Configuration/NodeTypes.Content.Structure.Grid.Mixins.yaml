@@ -13,12 +13,15 @@
         mobile:
           label: i18n
           icon: 'icon-mobile-alt'
+          position: 5
         tablet:
           label: i18n
           icon: 'icon-tablet-alt'
+          position: 3
         desktop:
           label: i18n
           icon: 'icon-desktop'
+          position: 1
       groups:
         column:
           label: i18n
@@ -50,6 +53,9 @@
         inspector:
           group: desktop
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
     mobileLayout:
       type: string
       ui:
@@ -58,6 +64,9 @@
         inspector:
           group: mobile
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
     tabletLayout:
       type: string
       ui:
@@ -66,3 +75,6 @@
         inspector:
           group: tablet
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n

@@ -24,7 +24,7 @@
         inline:
           editorOptions:
             placeholder: 'i18n'
-            autoparagraph: ~
+            autoparagraph: false
             linking: ~
             formatting:
               '*': false
@@ -37,16 +37,4 @@
         reloadIfChanged: true
         inspector:
           group: general
-    offset:
-      type: string
-      defaultValue: 'noSectionOffset'
-      ui:
-        reloadIfChanged: true
-        inspector:
-          group: general
-          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
-          editorOptions:
-            values:
-              noSectionOffset:
-                label: i18n
 

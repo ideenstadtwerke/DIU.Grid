@@ -32,18 +32,28 @@
       type: 'Neos.Neos:ContentCollection'
       constraints: *nodeTypeConstraints
   properties:
-    layout:
-      defaultValue: 2-2-2-2-2-2
+    desktopLayout:
+      defaultValue: 0-2-2-2-2-2-2
       ui:
         inspector:
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             values:
-              2-2-2-2-2-2:
+              0-2-2-2-2-2-2:
                 label: i18n
     mobileLayout:
       ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-2-2-2-2-2-2:
+                label: i18n
     tabletLayout:
       ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-2-2-2-2-2-2:
+                label: i18n
