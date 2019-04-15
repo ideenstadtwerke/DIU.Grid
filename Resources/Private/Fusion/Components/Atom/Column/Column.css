@@ -1,0 +1,10 @@
+.atom-column {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 540px) {
+    .atom-column {
+        margin-bottom: 0;
+    }
+}
+

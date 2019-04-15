@@ -17,18 +17,6 @@
     section:
       type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
   properties:
-    title:
-      type: string
-      ui:
-        inlineEditable: true
-        inline:
-          editorOptions:
-            placeholder: 'i18n'
-            autoparagraph: false
-            linking: ~
-            formatting:
-              '*': false
-              removeFormat: true
     fluidLayout:
       type: boolean
       defaultValue: false
@@ -37,4 +25,15 @@
         reloadIfChanged: true
         inspector:
           group: general
-
+    theme:
+      type: string
+      defaultValue: 'red-background'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n

@@ -22,8 +22,16 @@
       ui:
         inspector: ~
     mobileLayout:
+      defaultValue: 0-12
       ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-12:
+                label: i18n
+              2-10:
+                label: i18n
     tabletLayout:
       ui:
         inspector: ~

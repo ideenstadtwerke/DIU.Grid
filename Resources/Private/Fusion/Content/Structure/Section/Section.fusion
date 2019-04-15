@@ -2,19 +2,9 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
 
     renderer = DIU.Grid:Components.Atom.Section {
 
-        title = Neos.Neos:Editable {
-            property = 'title'
-        }
-
-        subtitle = Neos.Neos:Editable {
-            property = 'subtitle'
-        }
-
-        headlineStyle = ${q(node).property('useHeadlineStyle') ? 'section-styled-headline' : 'section-normal-headline'}
-
-        showSubtitle = ${q(node).property('showSubtitle')}
-
         fluidLayout = ${q(node).property('fluidLayout') ? '-fluid' : ''}
+
+        classNames = ${q(node).property('theme')}
 
         offset = ${q(node).property('offset')}
 
