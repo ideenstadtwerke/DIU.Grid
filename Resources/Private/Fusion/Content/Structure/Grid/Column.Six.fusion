@@ -14,21 +14,27 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
 
         column0 = Neos.Neos:ContentCollection {
             nodePath = 'column0'
+            attributes.class = 'fullheight-stretch'
         }
         column1 = Neos.Neos:ContentCollection {
             nodePath = 'column1'
+            attributes.class = 'fullheight-stretch'
         }
         column2 = Neos.Neos:ContentCollection {
             nodePath = 'column2'
+            attributes.class = 'fullheight-stretch'
         }
         column3 = Neos.Neos:ContentCollection {
             nodePath = 'column3'
+            attributes.class = 'fullheight-stretch'
         }
         column4 = Neos.Neos:ContentCollection {
             nodePath = 'column4'
+            attributes.class = 'fullheight-stretch'
         }
         column5 = Neos.Neos:ContentCollection {
             nodePath = 'column5'
+            attributes.class = 'fullheight-stretch'
         }
 
         columnData = Neos.Fusion:RawArray{
