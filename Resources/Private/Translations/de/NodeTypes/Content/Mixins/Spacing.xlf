@@ -3,12 +3,20 @@
     <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
         <body>
             <trans-unit id="properties.addTopSpacing">
-                <source>Add top spacing</source>
-                <target>Abstand oben hinzufügen</target>
+                <source>Top spacing</source>
+                <target>Abstand oben</target>
+            </trans-unit>
+            <trans-unit id="properties.addTopSpacing.selectBoxEditor.placeholder">
+                <source>Please chooose top margin</source>
+                <target>Bitte oberen Abstand wählen</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacing">
-                <source>Add bottom spacing</source>
-                <target>Abstand unten hinzufügen</target>
+                <source>Bottom spacing</source>
+                <target>Abstand unten</target>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacing.selectBoxEditor.placeholder">
+                <source>Please chooose bottom margin</source>
+                <target>Bitte unteren Abstand wählen </target>
             </trans-unit>
         </body>
     </file>

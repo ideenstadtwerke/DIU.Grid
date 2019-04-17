@@ -2,18 +2,52 @@
   abstract: true
   properties:
     addTopSpacing:
-      type: boolean
-      defaultValue: false
+      type: string
+      defaultValue: ''
       ui:
         label: i18n
         reloadIfChanged: true
         inspector:
           group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-top-10:
+                label: '10 Pixel'
+              margin-top-20:
+                label: '20 Pixel'
+              margin-top-30:
+                label: '30 Pixel'
+              margin-top-40:
+                label: '40 Pixel'
+              margin-top-50:
+                label: '50 Pixel'
+              margin-top-60:
+                label: '60 Pixel'
     addBottomSpacing:
-      type: boolean
-      defaultValue: false
+      type: string
+      defaultValue: ''
       ui:
         label: i18n
         reloadIfChanged: true
         inspector:
           group: general
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-bottom-10:
+                label: '10 Pixel'
+              margin-bottom-20:
+                label: '20 Pixel'
+              margin-bottom-30:
+                label: '30 Pixel'
+              margin-bottom-40:
+                label: '40 Pixel'
+              margin-bottom-50:
+                label: '50 Pixel'
+              margin-bottom-60:
+                label: '60 Pixel'

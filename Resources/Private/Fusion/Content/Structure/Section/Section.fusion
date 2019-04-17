@@ -5,8 +5,9 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
         fluidLayout = ${q(node).property('fluidLayout') ? '-fluid' : ''}
 
         classNames = Neos.Fusion:Join {
-            topSpacing = ${q(node).property('addTopSpacing') ? ' topSpacing ' : ''}
-            bottomSpacing = ${q(node).property('addBottomSpacing') ? ' bottomSpacing ' : ''}
+            @glue = ' '
+            topSpacing = ${q(node).property('addTopSpacing') ? q(node).property('addTopSpacing') : ''}
+            bottomSpacing = ${q(node).property('addBottomSpacing') ? q(node).property('addBottomSpacing') : ''}
             theme = ${q(node).property('theme') ? q(node).property('theme') : ''}
         }
 
