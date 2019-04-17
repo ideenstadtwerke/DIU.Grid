@@ -9,10 +9,19 @@ Neos:
         structure:
           position: 200
           label: Structure
-          collapsed: true
+          collapsed: false
     fusion:
       autoInclude:
         'DIU.Grid': true
   Fusion:
     defaultContext:
       'DIU.Grid' : 'DIU\Grid\Eel\Helper\GridHelper'
+
+# Adjust to your needs, these are the defaults of bootstrap
+DIU:
+  Grid:
+    breakpoints:
+      - xs
+      - sm
+      - md
+      - lg

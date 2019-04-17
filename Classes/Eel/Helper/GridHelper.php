@@ -3,27 +3,29 @@
 
 namespace DIU\Grid\Eel\Helper;
 
-use Neos\Flow\Annotation as Flow;
+use Neos\Flow\Annotations as Flow;
 use Neos\Eel\ProtectedContextAwareInterface;
 
 
 class GridHelper implements ProtectedContextAwareInterface
 {
+    /**
+     * @Flow\InjectConfiguration(path="breakpoints")
+     * @var array
+     */
+    protected $breakpoints = array();
 
     /**
      * Construct a string containing all class names required to properly render the given grid column
      *
-     * @param $columnData array containing arrays for each breakpoint
-     * @param $column zero-based index of the column
+     * @param array $columnData array containing arrays for each breakpoint
+     * @param integer $column zero-based index of the column
      * @return string containing the assembled class names
      */
     public function assembleClassNames($columnData, $column){
-
         $result = '';
 
-        $breakpoints = ['xs', 'sm', 'md', 'lg'];
-
-        foreach($breakpoints as $breakpoint){
+        foreach($this->breakpoints as $breakpoint){
             $result .= $this->readBreakpoint($breakpoint, $columnData, $column);
         }
 
@@ -33,18 +35,25 @@ class GridHelper implements ProtectedContextAwareInterface
     /**
      * Read entry from array for a single breakpoint
      *
-     * @param $breakpoint e. g. 'lg' for desktop
-     * @param $columnData array containing arrays for each breakpoint
-     * @param $column zero-based index of the column
+     * @param string $breakpoint e. g. 'lg' for desktop
+     * @param array $columnData array containing arrays for each breakpoint
+     * @param integer $column zero-based index of the column
      * @return string that may contain an offset and a column width
      */
     private function readBreakpoint($breakpoint, $columnData, $column){
         $result = '';
         if(isset($columnData[$breakpoint])){
-            if($column === 0 && isset($columnData[$breakpoint]['offset']) && $columnData[$breakpoint]['offset'] !== '0'){
-                $result .= 'offset-' . $breakpoint . '-' . $columnData[$breakpoint]['offset'];
+
+            if($column === 0 && isset($columnData[$breakpoint]['offset']) && (int)$columnData[$breakpoint]['offset'] > 0){
+                if ($breakpoint === 'xs') {
+                    $result .= 'offset-' . $columnData[$breakpoint]['offset'];
+                } else
+                {
+                    $result .= 'offset-' . $breakpoint . '-' . $columnData[$breakpoint]['offset'];
+                }
             }
-            if(isset($columnData[$breakpoint]['col' . $column])){
+            $columnNumber = 'col' . $column;
+            if(isset($columnData[$breakpoint][$columnNumber])){
                 if ($breakpoint === 'xs') {
                     $result .= ' col-'. $columnData[$breakpoint]['col' . $column];
                 } else {

@@ -11,23 +11,11 @@
             <trans-unit id="groups.general">
                 <source>Section Settings</source>
             </trans-unit>
-            <trans-unit id="properties.title">
-                <source>Title</source>
+            <trans-unit id="properties.theme">
+                <source>Styling</source>
             </trans-unit>
-            <trans-unit id="properties.title.ui.inline.editorOptions.placeholder">
-                <source>type your title here</source>
-            </trans-unit>
-            <trans-unit id="properties.subtitle">
-                <source>Subitle</source>
-            </trans-unit>
-            <trans-unit id="properties.subtitle.ui.inline.editorOptions.placeholder">
-                <source>space for a subtitle</source>
-            </trans-unit>
-            <trans-unit id="properties.useHeadlineStyle">
-                <source>Headline: white in a blue box</source>
-            </trans-unit>
-            <trans-unit id="properties.showSubtitle">
-                <source>Show a Subtitle (only for the blue boxed headline)</source>
+            <trans-unit id="properties.theme.selectBoxEditor.placeholder">
+                <source>Please choose a background color</source>
             </trans-unit>
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>

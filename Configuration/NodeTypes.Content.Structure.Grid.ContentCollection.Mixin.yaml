@@ -3,8 +3,10 @@
   constraints:
     nodeTypes:
       '*': false
+      'DIU.Grid:Content.Structure.Section': false
       'DIU.Grid:Content.Structure.Grid.Column.One': true
       'DIU.Grid:Content.Structure.Grid.Column.Two': true
       'DIU.Grid:Content.Structure.Grid.Column.Three': true
       'DIU.Grid:Content.Structure.Grid.Column.Four': true
       'DIU.Grid:Content.Structure.Grid.Column.Six': true
+
