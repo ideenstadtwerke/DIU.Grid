@@ -17,6 +17,9 @@
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
             </trans-unit>
+            <trans-unit id="properties.theme.selectBoxEditor.placeholder">
+                <source>Select background style</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

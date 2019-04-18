@@ -27,7 +27,6 @@
           group: general
     theme:
       type: string
-      defaultValue: 'red-background'
       ui:
         label: i18n
         reloadIfChanged: true

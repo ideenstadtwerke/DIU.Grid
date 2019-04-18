@@ -22,6 +22,10 @@
                 <source>Fluid Container / Full screen width</source>
                 <target>Fluid Container / Volle Bildschirmbreite</target>
             </trans-unit>
+            <trans-unit id="properties.theme.selectBoxEditor.placeholder">
+                <source>Select background style</source>
+                <target>Hintergrund auswählen</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
