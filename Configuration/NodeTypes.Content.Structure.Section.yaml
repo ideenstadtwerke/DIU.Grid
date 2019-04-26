@@ -14,6 +14,33 @@
           icon: 'icon-settings'
           tab: 'default'
           position: 10
+        mobile:
+          label: i18n
+          icon: 'icon-mobile-alt'
+          tab: 'mobile'
+        tablet:
+          label: i18n
+          icon: 'icon-tablet-alt'
+          tab: 'tablet'
+        desktop:
+          label: i18n
+          icon: 'icon-desktop'
+          tab: 'desktop'
+      tabs:
+        mobile:
+          label: i18n
+          icon: 'icon-mobile-alt'
+          position: 5
+        tablet:
+          label: i18n
+          icon: 'icon-tablet-alt'
+          position: 3
+        desktop:
+          label: i18n
+          icon: 'icon-desktop'
+          position: 1
+
+
   childNodes:
     section:
       type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'

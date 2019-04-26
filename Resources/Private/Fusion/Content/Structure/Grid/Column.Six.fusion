@@ -2,15 +2,22 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
 
     renderer = DIU.Grid:Components.Molecule.Grid.Column.Six {
 
-        classNames = ''
+        classNames = Neos.Fusion:Join {
+            @glue = ' '
+            addTopSpacingMobile = ${q(node).property('addTopSpacingMobile') ? q(node).property('addTopSpacingMobile') : ''}
+            addTopSpacingTablet = ${q(node).property('addTopSpacingTablet') ? q(node).property('addTopSpacingTablet') : ''}
+            addTopSpacingDesktop = ${q(node).property('addTopSpacingDesktop') ? q(node).property('addTopSpacingDesktop') : ''}
+            addBottomSpacingMobile = ${q(node).property('addBottomSpacingMobile') ? q(node).property('addBottomSpacingMobile') : ''}
+            addBottomSpacingTablet = ${q(node).property('addBottomSpacingTablet') ? q(node).property('addBottomSpacingTablet') : ''}
+            addBottomSpacingDesktop = ${q(node).property('addBottomSpacingDesktop') ? q(node).property('addBottomSpacingDesktop') : ''}
+        }
+        classNames.@process.trim = ${String.trim(value)}
 
         @context.desktopLayout = ${String.split(q(node).property('desktopLayout'), '-')}
         @context.mobileLayout = ${String.split(q(node).property('mobileLayout'), '-')}
         @context.tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
 
-        addTopSpacing = ${q(node).property('addTopSpacing')}
 
-        addBottomSpacing = ${q(node).property('addBottomSpacing')}
 
         column0 = Neos.Neos:ContentCollection {
             nodePath = 'column0'

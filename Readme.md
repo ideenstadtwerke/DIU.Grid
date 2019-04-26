@@ -13,15 +13,21 @@ The css structure is based on bootstrap 4.x. The static resources are not added 
 
 ## How to use the DIU.Grid Plugin?
 1. Require the package in your composer.json file.
-2. Allow sections as childnodes in your content elements.
-3. Override the constraints for the grid content elements.
-4. Add in your site package necessary layouts
+
+1. Allow sections as childnodes in your content elements.
+
+1. Override the constraints for the grid content elements.
+
+1. Add CSS rules for top and bottom margins. This is necessary because breakpoints may vary between projects. An Example can be found in `Resources/Private/Fusion/Components/Atom/Margin/Margin.scss`. Maybe also override the allowed values in `Configuration/NodeTypes.Content.Mixins.Spacing.yaml`.
+
+1. Add in your site package necessary layouts  
 
 e.g.: 
 ```
 0-4-4-4 => 3 equal columns no beginning offset
 2-4-4-2 => 3 columns, two 4 cols and one 2 cols with an beginning offset of two cols
 ```
+
 
 ###### TODO:
 * Add example for override

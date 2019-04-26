@@ -1,53 +1,172 @@
 'DIU.Grid:Content.Mixins.Spacing':
   abstract: true
   properties:
-    addTopSpacing:
+    addTopSpacingDesktop:
       type: string
       defaultValue: ''
       ui:
         label: i18n
         reloadIfChanged: true
         inspector:
-          group: general
+          position: end
+          group: desktop
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-top-10:
+              margin-top-0-desktop:
+                label: '0 Pixel'
+              margin-top-10-desktop:
                 label: '10 Pixel'
-              margin-top-20:
+              margin-top-20-desktop:
                 label: '20 Pixel'
-              margin-top-30:
+              margin-top-30-desktop:
                 label: '30 Pixel'
-              margin-top-40:
+              margin-top-40-desktop:
                 label: '40 Pixel'
-              margin-top-50:
+              margin-top-50-desktop:
                 label: '50 Pixel'
-              margin-top-60:
+              margin-top-60-desktop:
                 label: '60 Pixel'
-    addBottomSpacing:
+    addTopSpacingTablet:
       type: string
       defaultValue: ''
       ui:
         label: i18n
         reloadIfChanged: true
         inspector:
-          group: general
+          position: end
+          group: tablet
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-bottom-10:
+              margin-top-0-tablet:
+                label: '0 Pixel'
+              margin-top-10-tablet:
                 label: '10 Pixel'
-              margin-bottom-20:
+              margin-top-20-tablet:
                 label: '20 Pixel'
-              margin-bottom-30:
+              margin-top-30-tablet:
                 label: '30 Pixel'
-              margin-bottom-40:
+              margin-top-40-tablet:
                 label: '40 Pixel'
-              margin-bottom-50:
+              margin-top-50-tablet:
                 label: '50 Pixel'
-              margin-bottom-60:
+              margin-top-60-tablet:
                 label: '60 Pixel'
+    addTopSpacingMobile:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: mobile
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-top-0-mobile:
+                label: '0 Pixel'
+              margin-top-10-mobile:
+                label: '10 Pixel'
+              margin-top-20-mobile:
+                label: '20 Pixel'
+              margin-top-30-mobile:
+                label: '30 Pixel'
+              margin-top-40-mobile:
+                label: '40 Pixel'
+              margin-top-50-mobile:
+                label: '50 Pixel'
+              margin-top-60-mobile:
+                label: '60 Pixel'
+    addBottomSpacingDesktop:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: desktop
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-bottom-0-desktop:
+                label: '0 Pixel'
+              margin-bottom-10-desktop:
+                label: '10 Pixel'
+              margin-bottom-20-desktop:
+                label: '20 Pixel'
+              margin-bottom-30-desktop:
+                label: '30 Pixel'
+              margin-bottom-40-desktop:
+                label: '40 Pixel'
+              margin-bottom-50-desktop:
+                label: '50 Pixel'
+              margin-bottom-60-desktop:
+                label: '60 Pixel'
+    addBottomSpacingTablet:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: tablet
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-bottom-0-tablet:
+                label: '0 Pixel'
+              margin-bottom-10-tablet:
+                label: '10 Pixel'
+              margin-bottom-20-tablet:
+                label: '20 Pixel'
+              margin-bottom-30-tablet:
+                label: '30 Pixel'
+              margin-bottom-40-tablet:
+                label: '40 Pixel'
+              margin-bottom-50-tablet:
+                label: '50 Pixel'
+              margin-bottom-60-tablet:
+                label: '60 Pixel'
+    addBottomSpacingMobile:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: mobile
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              margin-bottom-0-mobile:
+                label: '0 Pixel'
+              margin-bottom-10-mobile:
+                label: '10 Pixel'
+              margin-bottom-20-mobile:
+                label: '20 Pixel'
+              margin-bottom-30-mobile:
+                label: '30 Pixel'
+              margin-bottom-40-mobile:
+                label: '40 Pixel'
+              margin-bottom-50-mobile:
+                label: '50 Pixel'
+              margin-bottom-60-mobile:
+                label: '60 Pixel'
+

@@ -6,10 +6,15 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
 
         classNames = Neos.Fusion:Join {
             @glue = ' '
-            topSpacing = ${q(node).property('addTopSpacing') ? q(node).property('addTopSpacing') : ''}
-            bottomSpacing = ${q(node).property('addBottomSpacing') ? q(node).property('addBottomSpacing') : ''}
+            addTopSpacingMobile = ${q(node).property('addTopSpacingMobile') ? q(node).property('addTopSpacingMobile') : ''}
+            addTopSpacingTablet = ${q(node).property('addTopSpacingTablet') ? q(node).property('addTopSpacingTablet') : ''}
+            addTopSpacingDesktop = ${q(node).property('addTopSpacingDesktop') ? q(node).property('addTopSpacingDesktop') : ''}
+            addBottomSpacingMobile = ${q(node).property('addBottomSpacingMobile') ? q(node).property('addBottomSpacingMobile') : ''}
+            addBottomSpacingTablet = ${q(node).property('addBottomSpacingTablet') ? q(node).property('addBottomSpacingTablet') : ''}
+            addBottomSpacingDesktop = ${q(node).property('addBottomSpacingDesktop') ? q(node).property('addBottomSpacingDesktop') : ''}
             theme = ${q(node).property('theme') ? q(node).property('theme') : ''}
         }
+        classNames.@process.trim = ${String.trim(value)}
 
         offset = ${q(node).property('offset')}
 

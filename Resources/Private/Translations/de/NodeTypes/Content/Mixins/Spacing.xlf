@@ -2,19 +2,51 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
         <body>
-            <trans-unit id="properties.addTopSpacing">
+            <trans-unit id="properties.addTopSpacingDesktop">
                 <source>Top spacing</source>
                 <target>Abstand oben</target>
             </trans-unit>
-            <trans-unit id="properties.addTopSpacing.selectBoxEditor.placeholder">
+            <trans-unit id="properties.addTopSpacingDesktop.selectBoxEditor.placeholder">
                 <source>Please chooose top margin</source>
                 <target>Bitte oberen Abstand wählen</target>
             </trans-unit>
-            <trans-unit id="properties.addBottomSpacing">
+            <trans-unit id="properties.addBottomSpacingDesktop">
                 <source>Bottom spacing</source>
                 <target>Abstand unten</target>
             </trans-unit>
-            <trans-unit id="properties.addBottomSpacing.selectBoxEditor.placeholder">
+            <trans-unit id="properties.addBottomSpacingDesktop.selectBoxEditor.placeholder">
+                <source>Please chooose bottom margin</source>
+                <target>Bitte unteren Abstand wählen </target>
+            </trans-unit>
+            <trans-unit id="properties.addTopSpacingTablet">
+                <source>Top spacing</source>
+                <target>Abstand oben</target>
+            </trans-unit>
+            <trans-unit id="properties.addTopSpacingTablet.selectBoxEditor.placeholder">
+                <source>Please chooose top margin</source>
+                <target>Bitte oberen Abstand wählen</target>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacingTablet">
+                <source>Bottom spacing</source>
+                <target>Abstand unten</target>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacingTablet.selectBoxEditor.placeholder">
+                <source>Please chooose bottom margin</source>
+                <target>Bitte unteren Abstand wählen </target>
+            </trans-unit>
+            <trans-unit id="properties.addTopSpacingMobile">
+                <source>Top spacing</source>
+                <target>Abstand oben</target>
+            </trans-unit>
+            <trans-unit id="properties.addTopSpacingMobile.selectBoxEditor.placeholder">
+                <source>Please chooose top margin</source>
+                <target>Bitte oberen Abstand wählen</target>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacingMobile">
+                <source>Bottom spacing</source>
+                <target>Abstand unten</target>
+            </trans-unit>
+            <trans-unit id="properties.addBottomSpacingMobile.selectBoxEditor.placeholder">
                 <source>Please chooose bottom margin</source>
                 <target>Bitte unteren Abstand wählen </target>
             </trans-unit>

@@ -67,7 +67,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
     renderer = afx`
-        <div class={'row molecule-grid molecule-grid-column-six' + (props.classNames ? ' ' + props.classNames : '') + (props.addTopSpacing ? ' spacing-top' : '') + (props.addBottomSpacing ? ' spacing-bottom' : '')}>
+        <div class={'row molecule-grid molecule-grid-column-six' + (props.classNames ? ' ' + props.classNames : '')}>
             <DIU.Grid:Components.Atom.Column content={props.column0} classNames={props.columnWidth0} />
             <DIU.Grid:Components.Atom.Column content={props.column1} classNames={props.columnWidth1} />
             <DIU.Grid:Components.Atom.Column content={props.column2} classNames={props.columnWidth2} />
