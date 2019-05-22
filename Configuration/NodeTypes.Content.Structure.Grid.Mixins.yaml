@@ -13,7 +13,7 @@
         mobile:
           label: i18n
           icon: 'icon-mobile-alt'
-          position: 5
+          position: 1
         tablet:
           label: i18n
           icon: 'icon-tablet-alt'
@@ -21,7 +21,7 @@
         desktop:
           label: i18n
           icon: 'icon-desktop'
-          position: 1
+          position: 5
       groups:
         column:
           label: i18n
