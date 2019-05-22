@@ -7,7 +7,7 @@
                 <target>Abstand oben</target>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingDesktop.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
                 <target>Bitte oberen Abstand wählen</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingDesktop">
@@ -15,7 +15,7 @@
                 <target>Abstand unten</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingDesktop.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
                 <target>Bitte unteren Abstand wählen </target>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingTablet">
@@ -23,7 +23,7 @@
                 <target>Abstand oben</target>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingTablet.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
                 <target>Bitte oberen Abstand wählen</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingTablet">
@@ -31,7 +31,7 @@
                 <target>Abstand unten</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingTablet.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
                 <target>Bitte unteren Abstand wählen </target>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingMobile">
@@ -39,7 +39,7 @@
                 <target>Abstand oben</target>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingMobile.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
                 <target>Bitte oberen Abstand wählen</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingMobile">
@@ -47,7 +47,7 @@
                 <target>Abstand unten</target>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingMobile.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
                 <target>Bitte unteren Abstand wählen </target>
             </trans-unit>
         </body>

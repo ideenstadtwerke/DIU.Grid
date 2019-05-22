@@ -15,19 +15,19 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-top-0-desktop:
+              padding-top-0-desktop:
                 label: '0 Pixel'
-              margin-top-10-desktop:
+              padding-top-10-desktop:
                 label: '10 Pixel'
-              margin-top-20-desktop:
+              padding-top-20-desktop:
                 label: '20 Pixel'
-              margin-top-30-desktop:
+              padding-top-30-desktop:
                 label: '30 Pixel'
-              margin-top-40-desktop:
+              padding-top-40-desktop:
                 label: '40 Pixel'
-              margin-top-50-desktop:
+              padding-top-50-desktop:
                 label: '50 Pixel'
-              margin-top-60-desktop:
+              padding-top-60-desktop:
                 label: '60 Pixel'
     addTopSpacingTablet:
       type: string
@@ -43,19 +43,19 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-top-0-tablet:
+              padding-top-0-tablet:
                 label: '0 Pixel'
-              margin-top-10-tablet:
+              padding-top-10-tablet:
                 label: '10 Pixel'
-              margin-top-20-tablet:
+              padding-top-20-tablet:
                 label: '20 Pixel'
-              margin-top-30-tablet:
+              padding-top-30-tablet:
                 label: '30 Pixel'
-              margin-top-40-tablet:
+              padding-top-40-tablet:
                 label: '40 Pixel'
-              margin-top-50-tablet:
+              padding-top-50-tablet:
                 label: '50 Pixel'
-              margin-top-60-tablet:
+              padding-top-60-tablet:
                 label: '60 Pixel'
     addTopSpacingMobile:
       type: string
@@ -71,19 +71,19 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-top-0-mobile:
+              padding-top-0-mobile:
                 label: '0 Pixel'
-              margin-top-10-mobile:
+              padding-top-10-mobile:
                 label: '10 Pixel'
-              margin-top-20-mobile:
+              padding-top-20-mobile:
                 label: '20 Pixel'
-              margin-top-30-mobile:
+              padding-top-30-mobile:
                 label: '30 Pixel'
-              margin-top-40-mobile:
+              padding-top-40-mobile:
                 label: '40 Pixel'
-              margin-top-50-mobile:
+              padding-top-50-mobile:
                 label: '50 Pixel'
-              margin-top-60-mobile:
+              padding-top-60-mobile:
                 label: '60 Pixel'
     addBottomSpacingDesktop:
       type: string
@@ -99,19 +99,19 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-bottom-0-desktop:
+              padding-bottom-0-desktop:
                 label: '0 Pixel'
-              margin-bottom-10-desktop:
+              padding-bottom-10-desktop:
                 label: '10 Pixel'
-              margin-bottom-20-desktop:
+              padding-bottom-20-desktop:
                 label: '20 Pixel'
-              margin-bottom-30-desktop:
+              padding-bottom-30-desktop:
                 label: '30 Pixel'
-              margin-bottom-40-desktop:
+              padding-bottom-40-desktop:
                 label: '40 Pixel'
-              margin-bottom-50-desktop:
+              padding-bottom-50-desktop:
                 label: '50 Pixel'
-              margin-bottom-60-desktop:
+              padding-bottom-60-desktop:
                 label: '60 Pixel'
     addBottomSpacingTablet:
       type: string
@@ -127,19 +127,19 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-bottom-0-tablet:
+              padding-bottom-0-tablet:
                 label: '0 Pixel'
-              margin-bottom-10-tablet:
+              padding-bottom-10-tablet:
                 label: '10 Pixel'
-              margin-bottom-20-tablet:
+              padding-bottom-20-tablet:
                 label: '20 Pixel'
-              margin-bottom-30-tablet:
+              padding-bottom-30-tablet:
                 label: '30 Pixel'
-              margin-bottom-40-tablet:
+              padding-bottom-40-tablet:
                 label: '40 Pixel'
-              margin-bottom-50-tablet:
+              padding-bottom-50-tablet:
                 label: '50 Pixel'
-              margin-bottom-60-tablet:
+              padding-bottom-60-tablet:
                 label: '60 Pixel'
     addBottomSpacingMobile:
       type: string
@@ -155,18 +155,18 @@
             allowEmpty: true
             placeholder: i18n
             values:
-              margin-bottom-0-mobile:
+              padding-bottom-0-mobile:
                 label: '0 Pixel'
-              margin-bottom-10-mobile:
+              padding-bottom-10-mobile:
                 label: '10 Pixel'
-              margin-bottom-20-mobile:
+              padding-bottom-20-mobile:
                 label: '20 Pixel'
-              margin-bottom-30-mobile:
+              padding-bottom-30-mobile:
                 label: '30 Pixel'
-              margin-bottom-40-mobile:
+              padding-bottom-40-mobile:
                 label: '40 Pixel'
-              margin-bottom-50-mobile:
+              padding-bottom-50-mobile:
                 label: '50 Pixel'
-              margin-bottom-60-mobile:
+              padding-bottom-60-mobile:
                 label: '60 Pixel'
 

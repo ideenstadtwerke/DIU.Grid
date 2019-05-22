@@ -6,37 +6,37 @@
                 <source>Top spacing</source>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingDesktop.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingDesktop">
                 <source>Bottom spacing</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingDesktop.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingTablet">
                 <source>Top spacing</source>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingTablet.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingTablet">
                 <source>Bottom spacing</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingTablet.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingMobile">
                 <source>Top spacing</source>
             </trans-unit>
             <trans-unit id="properties.addTopSpacingMobile.selectBoxEditor.placeholder">
-                <source>Please chooose top margin</source>
+                <source>Please chooose top padding</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingMobile">
                 <source>Bottom spacing</source>
             </trans-unit>
             <trans-unit id="properties.addBottomSpacingMobile.selectBoxEditor.placeholder">
-                <source>Please chooose bottom margin</source>
+                <source>Please chooose bottom padding</source>
             </trans-unit>
         </body>
     </file>
