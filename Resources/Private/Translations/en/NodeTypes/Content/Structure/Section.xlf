@@ -20,9 +20,6 @@
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
             </trans-unit>
-            <trans-unit id="properties.anchorId">
-                <source>Anchor ID</source>
-            </trans-unit>
         </body>
     </file>
 </xliff>

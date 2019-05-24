@@ -26,10 +26,6 @@
                 <source>Fluid Container / Full screen width</source>
                 <target>Fluid Container / Volle Bildschirmbreite</target>
             </trans-unit>
-            <trans-unit id="properties.anchorId">
-                <source>Anchor ID</source>
-                <target>Anchor ID</target>
-            </trans-unit>
         </body>
     </file>
 </xliff>
