@@ -23,6 +23,6 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
         content = Neos.Neos:PrimaryContent {
             nodePath = 'section'
         }
-
+        id = ${q(node).property('anchorId')}
     }
 }

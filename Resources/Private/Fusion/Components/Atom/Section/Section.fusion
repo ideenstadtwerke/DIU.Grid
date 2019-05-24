@@ -29,9 +29,10 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
     classNames = ''
     offset= ''
     fluidLayout=''
+    id = ''
 
     renderer = afx`
-        <section class={'atom-section ' + props.classNames + ' ' + props.offset}>
+        <section id={props.id} class={'atom-section ' + props.classNames + ' ' + props.offset}>
             <div class={'container' + props.fluidLayout}>
                 {props.content}
             </div>
