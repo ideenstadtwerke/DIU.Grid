@@ -7,7 +7,7 @@
     position: 300
   childNodes:
     column0:
-      type: 'Neos.Neos:ContentCollection'
+      type: 'DIU.Grid:Content.Structure.Grid.BaseColumn'
       constraints: &nodeTypeConstraints
         nodeTypes:
           'DIU.Grid:Content.Structure.Grid.Column.One': false
@@ -17,10 +17,10 @@
           'DIU.Grid:Content.Structure.Grid.Column.Six': false
           'DIU.Grid:Content.Structure.Section': false
     column1:
-      type: 'Neos.Neos:ContentCollection'
+      type: 'DIU.Grid:Content.Structure.Grid.BaseColumn'
       constraints: *nodeTypeConstraints
     column2:
-      type: 'Neos.Neos:ContentCollection'
+      type: 'DIU.Grid:Content.Structure.Grid.BaseColumn'
       constraints: *nodeTypeConstraints
   properties:
     desktopLayout:

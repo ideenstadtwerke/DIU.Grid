@@ -1,4 +1,4 @@
-prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentComponent) {
+prototype(DIU.Grid:Content.Structure.Section) < prototype(DIU.Grid:Content.ContentCollection) {
 
     renderer = DIU.Grid:Components.Atom.Section {
 
@@ -20,8 +20,8 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(Neos.Neos:ContentCompo
 
 
 
-        content = Neos.Neos:PrimaryContent {
+        /*content = Neos.Neos:PrimaryContent {
             nodePath = 'section'
-        }
+        }*/
     }
 }

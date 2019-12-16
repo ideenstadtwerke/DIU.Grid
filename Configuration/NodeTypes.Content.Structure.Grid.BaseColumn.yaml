@@ -1,0 +1,8 @@
+'DIU.Grid:Content.Structure.Grid.BaseColumn':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: 'Column'
+    icon: columns
+    group: 'structure'

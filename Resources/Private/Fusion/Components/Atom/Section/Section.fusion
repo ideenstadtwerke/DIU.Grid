@@ -34,7 +34,7 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
     renderer = afx`
         <section class={'atom-section ' + props.classNames + ' ' + props.offset}>
             <div class={'container' + props.fluidLayout}>
-                {props.content}
+                <Neos.Neos:ContentCollectionRenderer/>
             </div>
         </section>
     `

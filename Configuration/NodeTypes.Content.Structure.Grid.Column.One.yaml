@@ -7,7 +7,7 @@
     position: 200
   childNodes:
     column0:
-      type: 'Neos.Neos:ContentCollection'
+      type: 'DIU.Grid:Content.Structure.Grid.BaseColumn'
       constraints:
         nodeTypes:
           'DIU.Grid:Content.Structure.Grid.Column.One': false

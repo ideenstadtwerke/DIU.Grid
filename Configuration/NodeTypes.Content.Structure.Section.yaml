@@ -1,7 +1,9 @@
 'DIU.Grid:Content.Structure.Section':
   superTypes:
     'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
     'DIU.Grid:Content.Mixins.Spacing': true
+    'DIU.Grid:Content.Structure.Grid.ContentCollection.Mixin': true
   ui:
     label: i18n
     position: 100
@@ -41,9 +43,9 @@
           position: 5
 
 
-  childNodes:
-    section:
-      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
+#  childNodes:
+#    section:
+#      type: 'DIU.Grid:Content.Structure.Grid.ContentCollection'
   properties:
     fluidLayout:
       type: boolean

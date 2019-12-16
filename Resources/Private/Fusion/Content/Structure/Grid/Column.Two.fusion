@@ -22,14 +22,8 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Two) < prototype(Neos.Neos:Cont
         @context.tabletLayout = ${String.split(q(node).property('tabletLayout'), '-')}
 
 
-        column0 = Neos.Neos:ContentCollection {
-            nodePath = 'column0'
-            attributes.class = 'fullheight-stretch'
-        }
-        column1 = Neos.Neos:ContentCollection {
-            nodePath = 'column1'
-            attributes.class = 'fullheight-stretch'
-        }
+        column0 = ${q(node).children('column0').get(0)}
+        column1 = ${q(node).children('column1').get(0)}
 
         columnData = Neos.Fusion:DataStructure{
             xs = Neos.Fusion:DataStructure {

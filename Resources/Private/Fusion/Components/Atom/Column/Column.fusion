@@ -1,4 +1,4 @@
-prototype(DIU.Grid:Components.Atom.Column) < prototype(Neos.Fusion:Component) {
+prototype(DIU.Grid:Components.Atom.Column) < prototype(DIU.Grid:Content.ContentCollection) {
 
     #
     # Styleguide annotation
@@ -35,14 +35,16 @@ prototype(DIU.Grid:Components.Atom.Column) < prototype(Neos.Fusion:Component) {
 
     content = ''
     classNames = ''
-
+    # The content collection renderer renders all children of the current node context variable
+    # Thus we set the node context variable to the node of the content collection we need to render
+    @context.node = ${this.content}
     #
     # The code afx`...` is converted to the fusion code below at parse time.
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
     renderer = afx`
         <div class={'atom-column ' + props.classNames}>
-            {props.content}
+            <Neos.Neos:ContentCollectionRenderer/>
         </div>
     `
 }
