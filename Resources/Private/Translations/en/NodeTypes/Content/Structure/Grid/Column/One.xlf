@@ -5,6 +5,12 @@
             <trans-unit id="ui.label">
                 <source>Single Column</source>
             </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12">
+                <source>Full width / 12 cols</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.2-10">
+                <source>Center 10 cols</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
