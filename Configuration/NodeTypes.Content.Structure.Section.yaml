@@ -57,7 +57,7 @@
           group: general
     theme:
       type: string
-      defaultValue: 'red-background'
+      defaultValue: 'default'
       ui:
         label: i18n
         reloadIfChanged: true
@@ -65,5 +65,6 @@
           group: general
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
-            allowEmpty: true
-            placeholder: i18n
+            values:
+              default:
+                label: i18n

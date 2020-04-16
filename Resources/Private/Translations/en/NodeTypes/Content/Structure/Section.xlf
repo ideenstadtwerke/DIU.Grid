@@ -17,6 +17,9 @@
             <trans-unit id="properties.theme.selectBoxEditor.placeholder">
                 <source>Please choose a background color</source>
             </trans-unit>
+            <trans-unit id="properties.theme.selectBoxEditor.values.default">
+                <source>Default</source>
+            </trans-unit>
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
             </trans-unit>

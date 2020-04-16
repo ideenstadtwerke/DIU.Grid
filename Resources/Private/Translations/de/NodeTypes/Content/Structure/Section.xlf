@@ -22,6 +22,10 @@
                 <source>Please choose a background color</source>
                 <target>Bitte eine Hintergrundfarbe auswählen</target>
             </trans-unit>
+            <trans-unit id="properties.theme.selectBoxEditor.values.default">
+                <source>Default</source>
+                <target>Standard</target>
+            </trans-unit>
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
                 <target>Fluid Container / Volle Bildschirmbreite</target>
