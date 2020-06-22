@@ -16,6 +16,9 @@
           icon: 'icon-settings'
           tab: 'default'
           position: 10
+        background:
+          label: i18n
+          position: 50
         mobile:
           label: i18n
           icon: 'icon-mobile-alt'
