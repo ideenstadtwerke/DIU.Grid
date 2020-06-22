@@ -50,7 +50,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Neos.Content.Grid:Components.Atom.Column
+            <DIU.Grid:Components.Atom.Column
                 content={props.column0}
                 classNames={props.columnWidth0 + ' ' + props.color0}
                 bgImage={props.bgImagePath0}/>

@@ -68,19 +68,19 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-four' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Neos.Content.Grid:Components.Atom.Column
+            <DIU.Grid:Components.Atom.Column
                 content={props.column0}
                 classNames={props.columnWidth0 + ' ' + props.color0}
             bgImage={props.bgImagePath0} />
-            <DIU.Neos.Content.Grid:Components.Atom.Column
+            <DIU.Grid:Components.Atom.Column
                 content={props.column1}
                 classNames={props.columnWidth1 + ' ' + props.color1}
             bgImage={props.bgImagePath1} />
-            <DIU.Neos.Content.Grid:Components.Atom.Column
+            <DIU.Grid:Components.Atom.Column
                 content={props.column2}
                 classNames={props.columnWidth2 + ' ' + props.color2}
             bgImage={props.bgImagePath2} />
-            <DIU.Neos.Content.Grid:Components.Atom.Column
+            <DIU.Grid:Components.Atom.Column
                 content={props.column3}
                 classNames={props.columnWidth3 + ' ' + props.color3}
             bgImage={props.bgImagePath3} />
