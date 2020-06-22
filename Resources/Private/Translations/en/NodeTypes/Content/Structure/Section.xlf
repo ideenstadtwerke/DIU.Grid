@@ -23,6 +23,27 @@
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
             </trans-unit>
+            <trans-unit id="groups.background">
+              <source>Background</source>
+            </trans-unit>
+            <trans-unit id="properties.backgroundImage">
+              <source>Background Image</source>
+            </trans-unit>
+            <trans-unit id="properties.anchorTag">
+              <source>Anchor Tag</source>
+            </trans-unit>
+            <trans-unit id="properties.color">
+              <source>Background Color</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.none">
+              <source>None</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.main">
+              <source>Primary Color</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
+              <source>Secondary Color</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

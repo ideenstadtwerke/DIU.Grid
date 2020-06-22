@@ -11,6 +11,24 @@
             <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-4-4">
                 <source>Equal columns (4-4-4 Cols)</source>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-3-6-3">
+                <source>Quarter Half Quarter (3-6-3 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-6-3">
+                <source>Quarter Half Quarter (3-6-3 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-6-3-3">
+                <source>Half Quarter Quarter (6-3-3 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-6-3-3">
+                <source>Half Quarter Quarter (6-3-3 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-3-3-6">
+                <source>Quarter Quarter Half (3-3-6 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-3-6">
+                <source>Quarter Quarter Half (3-3-6 Cols)</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

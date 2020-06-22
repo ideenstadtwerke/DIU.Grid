@@ -6,6 +6,30 @@
                 <source>Grid settings</source>
                 <target>Gitter Einstellungen</target>
             </trans-unit>
+            <trans-unit id="tabs.desktop">
+              <source>Desktop</source>
+              <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="tabs.mobile">
+              <source>Mobile</source>
+              <target>Mobile</target>
+            </trans-unit>
+            <trans-unit id="tabs.tablet">
+              <source>Tablet</source>
+              <target>Tablet</target>
+            </trans-unit>
+            <trans-unit id="groups.desktop">
+              <source>Desktop</source>
+              <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="groups.mobile">
+              <source>Mobile</source>
+              <target>Mobile</target>
+            </trans-unit>
+            <trans-unit id="groups.tablet">
+              <source>Tablet</source>
+              <target>Tablet</target>
+            </trans-unit>
             <trans-unit id="properties.desktopLayout">
                 <source>Layout</source>
                 <target>Layout</target>

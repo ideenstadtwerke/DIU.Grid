@@ -3,16 +3,40 @@
     <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
         <body>
             <trans-unit id="ui.label">
-                <source>3 Columns</source>
-                <target>3 Spalten</target>
+              <source>3 Columns</source>
+              <target>3 Spalten</target>
             </trans-unit>
             <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-4-4-4">
-                <source>Equal columns (4-4-4 Cols)</source>
-                <target>Gleiche Spanten (4-4-4)</target>
+              <source>Equal columns (4-4-4 Cols)</source>
+              <target>Gleiche Spalten (4-4-4)</target>
             </trans-unit>
             <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-4-4">
-                <source>Equal columns (4-4-4 Cols)</source>
-                <target>Gleiche Spanten (4-4-4)</target>
+              <source>Equal columns (4-4-4 Cols)</source>
+              <target>Gleiche Spalten (4-4-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-3-6-3">
+              <source>Quarter Half Quarter (3-6-3 Cols)</source>
+              <target>Viertel Halb Viertel (3-6-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-6-3">
+              <source>Quarter Half Quarter (3-6-3 Cols)</source>
+              <target>Viertel Halb Viertel (3-6-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-6-3-3">
+              <source>Half Quarter Quarter (6-3-3 Cols)</source>
+              <target>Halb Viertel Viertel (6-3-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-6-3-3">
+              <source>Half Quarter Quarter (6-3-3 Cols)</source>
+              <target>Halb Viertel Viertel (6-3-3)</target>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-3-3-6">
+              <source>Quarter Quarter Half (3-3-6 Cols)</source>
+              <target>Viertel Viertel Halb (3-3-6)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-3-6">
+              <source>Quarter Quarter Half (3-3-6 Cols)</source>
+              <target>Viertel Viertel Halb (3-3-6)</target>
             </trans-unit>
         </body>
     </file>
