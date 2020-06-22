@@ -13,12 +13,18 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(DIU.Grid:Content.Conte
             addBottomSpacingTablet = ${q(node).property('addBottomSpacingTablet') ? q(node).property('addBottomSpacingTablet') : ''}
             addBottomSpacingDesktop = ${q(node).property('addBottomSpacingDesktop') ? q(node).property('addBottomSpacingDesktop') : ''}
             theme = ${q(node).property('theme') ? q(node).property('theme') : ''}
+            color = ${q(node).property('color') ? 'color-' + q(node).property('color') : ''}
         }
         classNames.@process.trim = ${String.trim(value)}
 
         offset = ${q(node).property('offset')}
 
+        backgroundImage = Neos.Neos:ImageUri {
+            asset = ${q(node).property('backgroundImage')}
+            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
+        }
 
+        anchorTag = ${q(node).property('anchorTag')}
 
         /*content = Neos.Neos:PrimaryContent {
             nodePath = 'section'
