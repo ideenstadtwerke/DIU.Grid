@@ -62,6 +62,37 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
         columnWidth3 = ${DIU.Grid.assembleClassNames(this.columnData, 3)}
         columnWidth4 = ${DIU.Grid.assembleClassNames(this.columnData, 4)}
         columnWidth5 = ${DIU.Grid.assembleClassNames(this.columnData, 5)}
+
+        color0 = ${q(node).children('column0').property('color') ? 'bg-color-' + q(node).children('column0').property('color') : ''}
+        color1 = ${q(node).children('column1').property('color') ? 'bg-color-' + q(node).children('column1').property('color') : ''}
+        color2 = ${q(node).children('column2').property('color') ? 'bg-color-' + q(node).children('column2').property('color') : ''}
+        color3 = ${q(node).children('column3').property('color') ? 'bg-color-' + q(node).children('column3').property('color') : ''}
+        color4 = ${q(node).children('column4').property('color') ? 'bg-color-' + q(node).children('column4').property('color') : ''}
+        color5 = ${q(node).children('column5').property('color') ? 'bg-color-' + q(node).children('column5').property('color') : ''}
+
+        bgImagePath0 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column0').property('backgroundImage')}
+        }
+
+        bgImagePath1 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column1').property('backgroundImage')}
+        }
+
+        bgImagePath2 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column2').property('backgroundImage')}
+        }
+
+        bgImagePath3 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column3').property('backgroundImage')}
+        }
+
+        bgImagePath4 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column4').property('backgroundImage')}
+        }
+
+        bgImagePath5 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column5').property('backgroundImage')}
+        }
     }
 }
 

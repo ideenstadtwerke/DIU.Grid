@@ -61,6 +61,18 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
     columnWidth3 = ''
     columnWidth4 = ''
     columnWidth5 = ''
+    color0 = ''
+    color1 = ''
+    color2 = ''
+    color3 = ''
+    color4 = ''
+    color5 = ''
+    bgImagePath0 = ''
+    bgImagePath1 = ''
+    bgImagePath2 = ''
+    bgImagePath3 = ''
+    bgImagePath4 = ''
+    bgImagePath5 = ''
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -68,12 +80,30 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-six' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={props.columnWidth0} />
-            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={props.columnWidth1} />
-            <DIU.Grid:Components.Atom.Column content={props.column2} classNames={props.columnWidth2} />
-            <DIU.Grid:Components.Atom.Column content={props.column3} classNames={props.columnWidth3} />
-            <DIU.Grid:Components.Atom.Column content={props.column4} classNames={props.columnWidth4} />
-            <DIU.Grid:Components.Atom.Column content={props.column5} classNames={props.columnWidth5} />
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column0}
+                classNames={props.columnWidth0 + ' ' + props.color0}
+                bgImage={props.bgImagePath0}/>
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column1}
+                classNames={props.columnWidth1 + ' ' + props.color1}
+                bgImage={props.bgImagePath1}/>
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column2}
+                classNames={props.columnWidth2 + ' ' + props.color2}
+                bgImage={props.bgImagePath2}/>
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column3}
+                classNames={props.columnWidth3 + ' ' + props.color3}
+                bgImage={props.bgImagePath3}/>
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column4}
+                classNames={props.columnWidth4 + ' ' + props.color4}
+                bgImage={props.bgImagePath4}/>
+            <DIU.Neos.Content.Grid:Components.Atom.Column
+                content={props.column5}
+                classNames={props.columnWidth5 + ' ' + props.color5}
+                bgImage={props.bgImagePath5}/>
         </div>
     `
 }
