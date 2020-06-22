@@ -17,16 +17,14 @@
     margin-top: -300px;
 }
 
+@each $colorClass, $colorVar in $colors {
+    .atom-section.color-#{$colorClass} {
+        background-color: $colorVar;
+    }
+}
+
 .atom-section.color-none {
     background-color: inherit;
-}
-
-.atom-section.color-main {
-    background-color: $color-main;
-}
-
-.atom-section.color-secondary {
-    background-color: $color-secondary;
 }
 
 .atom-section .a-s__background-image {
