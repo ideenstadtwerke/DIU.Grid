@@ -5,6 +5,24 @@
             <trans-unit id="groups.general">
                 <source>Grid settings</source>
             </trans-unit>
+            <trans-unit id="tabs.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="tabs.mobile">
+                <source>Mobile</source>
+            </trans-unit>
+            <trans-unit id="tabs.tablet">
+                <source>Tablet</source>
+            </trans-unit>
+            <trans-unit id="groups.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="groups.mobile">
+                <source>Mobile</source>
+            </trans-unit>
+            <trans-unit id="groups.tablet">
+                <source>Tablet</source>
+            </trans-unit>
             <trans-unit id="properties.desktopLayout">
                 <source>Layout</source>
             </trans-unit>

@@ -41,6 +41,8 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     addTopSpacing = false
     addBottomSpacing = false
     columnWidth0 = ''
+    color0 = ''
+    bgImagePath0 = ''
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -48,7 +50,10 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={props.columnWidth0} />
+            <DIU.Grid:Components.Atom.Column
+                content={props.column0}
+                classNames={props.columnWidth0 + ' ' + props.color0}
+                bgImage={props.bgImagePath0}/>
         </div>
     `
 }

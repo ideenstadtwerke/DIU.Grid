@@ -53,6 +53,14 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
     columnWidth1 = ''
     columnWidth2 = ''
     columnWidth3 = ''
+    color0 = ''
+    color1 = ''
+    color2 = ''
+    color3 = ''
+    bgImagePath0 = ''
+    bgImagePath1 = ''
+    bgImagePath2 = ''
+    bgImagePath3 = ''
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -60,10 +68,22 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
     #
     renderer = afx`
         <div class={'row molecule-grid molecule-grid-column-four' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Grid:Components.Atom.Column content={props.column0} classNames={props.columnWidth0} />
-            <DIU.Grid:Components.Atom.Column content={props.column1} classNames={props.columnWidth1} />
-            <DIU.Grid:Components.Atom.Column content={props.column2} classNames={props.columnWidth2} />
-            <DIU.Grid:Components.Atom.Column content={props.column3} classNames={props.columnWidth3} />
+            <DIU.Grid:Components.Atom.Column
+                content={props.column0}
+                classNames={props.columnWidth0 + ' ' + props.color0}
+            bgImage={props.bgImagePath0} />
+            <DIU.Grid:Components.Atom.Column
+                content={props.column1}
+                classNames={props.columnWidth1 + ' ' + props.color1}
+            bgImage={props.bgImagePath1} />
+            <DIU.Grid:Components.Atom.Column
+                content={props.column2}
+                classNames={props.columnWidth2 + ' ' + props.color2}
+            bgImage={props.bgImagePath2} />
+            <DIU.Grid:Components.Atom.Column
+                content={props.column3}
+                classNames={props.columnWidth3 + ' ' + props.color3}
+            bgImage={props.bgImagePath3} />
         </div>
     `
 }

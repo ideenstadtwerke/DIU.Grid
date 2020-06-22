@@ -14,6 +14,30 @@
                 <source>Section Settings</source>
                 <target>Seitenbereich Einstellungen</target>
             </trans-unit>
+            <trans-unit id="tabs.desktop">
+                <source>Desktop</source>
+                <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="tabs.mobile">
+                <source>Mobile</source>
+                <target>Mobile</target>
+            </trans-unit>
+            <trans-unit id="tabs.tablet">
+                <source>Tablet</source>
+                <target>Tablet</target>
+            </trans-unit>
+            <trans-unit id="groups.desktop">
+                <source>Desktop</source>
+                <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="groups.mobile">
+                <source>Mobile</source>
+                <target>Mobile</target>
+            </trans-unit>
+            <trans-unit id="groups.tablet">
+                <source>Tablet</source>
+                <target>Tablet</target>
+            </trans-unit>
             <trans-unit id="properties.theme">
                 <source>Styling</source>
                 <target>Styling</target>
@@ -30,6 +54,34 @@
                 <source>Fluid Container / Full screen width</source>
                 <target>Fluid Container / Volle Bildschirmbreite</target>
             </trans-unit>
+            <trans-unit id="groups.background">
+              <source>Background</source>
+              <target>Hintergrund</target>
+            </trans-unit>
+            <trans-unit id="properties.backgroundImage">
+              <source>Background Image</source>
+              <target>Hintergrundbild</target>
+            </trans-unit>
+            <trans-unit id="properties.anchorTag">
+              <source>Anchor Tag</source>
+              <source>Abschnitts-ID</source>
+            </trans-unit>
+            <trans-unit id="properties.color">
+              <source>Background Color</source>
+              <target>Hintergrundfarbe</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.none">
+              <source>None</source>
+              <target>Keine</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.main">
+              <source>Primary Color</source>
+              <target>Primärfarbe</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
+              <source>Secondary Color</source>
+              <target>Sekundärfarbe</target>
+           </trans-unit>
         </body>
     </file>
 </xliff>

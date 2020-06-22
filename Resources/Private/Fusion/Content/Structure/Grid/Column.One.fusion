@@ -37,6 +37,12 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
         }
 
         columnWidth0 = ${DIU.Grid.assembleClassNames(this.columnData, 0)}
+
+        color0 = ${q(node).children('column0').property('color') ? 'bg-color-' + q(node).children('column0').property('color') : ''}
+
+        bgImagePath0 = Neos.Neos:ImageUri {
+            asset = ${q(node).children('column0').property('backgroundImage')}
+        }
     }
 
 }

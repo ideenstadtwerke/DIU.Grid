@@ -17,6 +17,27 @@
     margin-top: -300px;
 }
 
+@each $colorClass, $colorVar in $colors {
+    .atom-section.color-#{$colorClass} {
+        background-color: $colorVar;
+    }
+}
+
+.atom-section.color-none {
+    background-color: inherit;
+}
+
+.atom-section .a-s__background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .neos-backend .placeholder {
     min-height: auto;
 }

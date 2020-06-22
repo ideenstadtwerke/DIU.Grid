@@ -1,0 +1,15 @@
+// COLORS
+$color-black: #000 !default;
+$color-white: #FFF !default;
+$color-gray: #B5B5B5 !default;
+
+$color-main: #000 !default;
+$color-secondary: #fff !default;
+
+$colors: (
+  black: $color-black,
+  white: $color-white,
+  gray: $color-gray,
+  main: $color-main,
+  secondary: $color-secondary,
+);

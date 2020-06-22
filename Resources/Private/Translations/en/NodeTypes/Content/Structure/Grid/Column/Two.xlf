@@ -5,8 +5,35 @@
             <trans-unit id="ui.label">
                 <source>2 Columns</source>
             </trans-unit>
-            <trans-unit id="properties.layout.selectBoxEditor.values.0-6-6">
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-6-6">
                 <source>Equal columns (6-6 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-6-6">
+                <source>Equal columns (6-6 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-6-6">
+                <source>Equal columns (6-6 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-8-4">
+                <source>Two thirds / one third (8-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.1-7-4">
+                <source>One Offset /Two thirds / one third (1-7-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-8-4">
+                <source>Two thirds / one third (8-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.1-7-4">
+                <source>One Offset /Two thirds / one third (1-7-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-4-8">
+                <source>One third / two thirds (4-8 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-8">
+                <source>One third / two thirds (4-8 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12">
+                <source>Two Rows (12-12 Cols)</source>
             </trans-unit>
         </body>
     </file>

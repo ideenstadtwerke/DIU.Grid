@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.structure">
+                 <source>Background Settings</source>
+                 <target>Hintergrund Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="properties.backgroundImage">
+                <source>Image</source>
+                <target>Bild</target>
+            </trans-unit>
+            <trans-unit id="properties.color">
+                 <source>Color</source>
+                 <target>Farbe</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.none">
+                 <source>None</source>
+                 <target>Keine</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.main">
+                 <source>Primary Color</source>
+                 <target>Primärfarbe</target>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
+                 <source>Secondary Color</source>
+                 <target>Sekundärfarbe</target>
+            </trans-unit>
+          <trans-unit id="properties.color.selectBoxEditor.values.white">
+            <source>White</source>
+            <target>Weiß</target>
+          </trans-unit>
+        </body>
+    </file>
+</xliff>
