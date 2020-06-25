@@ -32,10 +32,9 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
     id = ''
 
     renderer = afx`
-        <section class={'atom-section ' + props.classNames + ' ' + props.offset}>
-            <div class={'container' + props.fluidLayout}>
-                <Neos.Neos:ContentCollectionRenderer/>
-            </div>
+        <section class={'atom-section ' + props.classNames + ' ' + props.offset + ' container' + props.fluidLayout} id={props.anchorTag}>
+            <div @if.has={props.backgroundImage} class="a-s__background-image" style={'background-image: url("' + props.backgroundImage + '");'}></div>
+            <Neos.Neos:ContentCollectionRenderer/>
         </section>
     `
 }

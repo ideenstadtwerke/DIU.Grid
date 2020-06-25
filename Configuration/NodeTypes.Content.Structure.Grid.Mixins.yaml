@@ -10,6 +10,10 @@
     inlineEditable: true
     inspector:
       tabs:
+        general:
+          label: i18n
+          icon: 'icon-edit'
+          position: 10
         mobile:
           label: i18n
           icon: 'icon-mobile-alt'

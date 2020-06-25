@@ -11,6 +11,24 @@
             <trans-unit id="groups.general">
                 <source>Section Settings</source>
             </trans-unit>
+            <trans-unit id="tabs.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="tabs.mobile">
+                <source>Mobile</source>
+            </trans-unit>
+            <trans-unit id="tabs.tablet">
+                <source>Tablet</source>
+            </trans-unit>
+            <trans-unit id="groups.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="groups.mobile">
+                <source>Mobile</source>
+            </trans-unit>
+            <trans-unit id="groups.tablet">
+                <source>Tablet</source>
+            </trans-unit>
             <trans-unit id="properties.theme">
                 <source>Styling</source>
             </trans-unit>
@@ -22,6 +40,27 @@
             </trans-unit>
             <trans-unit id="properties.fluidLayout">
                 <source>Fluid Container / Full screen width</source>
+            </trans-unit>
+            <trans-unit id="groups.background">
+              <source>Background</source>
+            </trans-unit>
+            <trans-unit id="properties.backgroundImage">
+              <source>Background Image</source>
+            </trans-unit>
+            <trans-unit id="properties.anchorTag">
+              <source>Anchor Tag</source>
+            </trans-unit>
+            <trans-unit id="properties.color">
+              <source>Background Color</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.none">
+              <source>None</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.main">
+              <source>Primary Color</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
+              <source>Secondary Color</source>
             </trans-unit>
         </body>
     </file>

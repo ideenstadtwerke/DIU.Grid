@@ -1,5 +1,14 @@
 .atom-column {
     margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@each $colorClass, $colorVar in $colors {
+    .atom-column.bg-color-#{$colorClass} {
+        background-color: $colorVar;
+    }
 }
 
 @media screen and (min-width: 540px) {

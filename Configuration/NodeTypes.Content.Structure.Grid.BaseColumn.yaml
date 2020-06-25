@@ -5,3 +5,41 @@
     label: 'Column'
     icon: columns
     group: 'structure'
+    inspector:
+      groups:
+        structure:
+          label: i18n
+          position: 10
+  properties:
+    backgroundImage:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: i18n
+        reloadPageIfChanged: true
+        inspector:
+          group: structure
+          position: 10
+          editorOptions:
+            features:
+              crop: true
+    color:
+      type: string
+      defaultValue: 'none'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: structure
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              none:
+                label: i18n
+              main:
+                label: i18n
+              secondary:
+                label: i18n
+              white:
+                label: i18n
+

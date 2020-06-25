@@ -18,6 +18,34 @@
                 <source>Equal columns (6-6 Cols)</source>
                 <target>Gleiche Spalten (6-6)</target>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-8-4">
+              <source>Two thirds / one third (8-4 Cols)</source>
+              <target>Zwei Drittel / Ein Drittel (8-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.1-7-4">
+              <source>One Offset /Two thirds / one third (1-7-4 Cols)</source>
+              <target>Ein Offset / Zwei Drittel / Ein Drittel (1-7-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-8-4">
+              <source>Two thirds / one third (8-4 Cols)</source>
+              <target>Zwei Drittel / Ein Drittel (8-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.1-7-4">
+              <source>One Offset /Two thirds / one third (1-7-4 Cols)</source>
+              <target>Ein Offset / Zwei Drittel / Ein Drittel (1-7-4)</target>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-4-8">
+              <source>One third / two thirds (4-8 Cols)</source>
+              <target>Ein Drittel / Zwei Drittel (4-8)</target>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-8">
+              <source>One third / two thirds (4-8 Cols)</source>
+              <target>Ein Drittel / Zwei Drittel (4-8)</target>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12">
+              <source>Two Rows (12-12 Cols)</source>
+              <target>Zwei Reihen (12-12)</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
