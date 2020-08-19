@@ -42,6 +42,7 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
 
         bgImagePath0 = Neos.Neos:ImageUri {
             asset = ${q(node).children('column0').property('backgroundImage')}
+            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
         }
     }
 
