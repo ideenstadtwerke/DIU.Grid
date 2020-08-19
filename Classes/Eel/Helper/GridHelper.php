@@ -44,7 +44,7 @@ class GridHelper implements ProtectedContextAwareInterface
         $result = '';
         if(isset($columnData[$breakpoint])){
 
-            if($column === 0 && isset($columnData[$breakpoint]['offset']) && (int)$columnData[$breakpoint]['offset'] > 0){
+            if($column === 0 && isset($columnData[$breakpoint]['offset'])){
                 if ($breakpoint === 'xs') {
                     $result .= 'offset-' . $columnData[$breakpoint]['offset'];
                 } else
