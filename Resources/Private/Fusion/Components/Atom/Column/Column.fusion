@@ -33,7 +33,7 @@ prototype(DIU.Grid:Components.Atom.Column) < prototype(DIU.Grid:Content.ContentC
         }
     }
 
-    content = ''
+    content = Neos.Neos:ContentCollectionRenderer
     classNames = ''
     bgImage = ''
     # The content collection renderer renders all children of the current node context variable
@@ -45,7 +45,7 @@ prototype(DIU.Grid:Components.Atom.Column) < prototype(DIU.Grid:Content.ContentC
     #
     renderer = afx`
         <div class={'atom-column ' + props.classNames} style={ props.bgImage ? 'background-image: url("' + props.bgImage + '");' : ''}>
-            <Neos.Neos:ContentCollectionRenderer/>
+            {props.content}
         </div>
     `
 }
