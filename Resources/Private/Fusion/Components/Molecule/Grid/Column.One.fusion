@@ -1,4 +1,4 @@
-prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:ConComponent) {
+prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:Component) {
 
     #
     # Styleguide annotation
@@ -48,7 +48,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     # The code afx`...` is converted to the fusion code below at parse time.
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
-    renderer = Neos.Fusion:ConComponent {
+    renderer = Neos.Fusion:Component {
         classNames = ${props.classNames}
         column0 = DIU.Grid:Components.Atom.Column {
             content = ${props.column0}

@@ -65,7 +65,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Three) < prototype(Neos.Fusio
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
 
-    renderer = Neos.Fusion:ConComponent {
+    renderer = Neos.Fusion:Component {
         classNames = ${props.classNames}
         column0 = DIU.Grid:Components.Atom.Column {
             content = ${props.column0}
