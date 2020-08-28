@@ -1,4 +1,4 @@
-prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:Component) {
+prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:ConComponent) {
 
     #
     # Styleguide annotation
@@ -48,12 +48,17 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.One) < prototype(Neos.Fusion:
     # The code afx`...` is converted to the fusion code below at parse time.
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
-    renderer = afx`
-        <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column0}
-                classNames={props.columnWidth0 + ' ' + props.color0}
-                bgImage={props.bgImagePath0}/>
-        </div>
-    `
+    renderer = Neos.Fusion:ConComponent {
+        classNames = ${props.classNames}
+        column0 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column0}
+            classNames = ${props.columnWidth0 + ' ' + props.color0}
+            bgImage = ${props.bgImagePath0}
+        }
+        renderer = afx`
+            <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '')}>
+                {props.column0}
+            </div>
+        `
+    }
 }

@@ -78,32 +78,49 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
     # The code afx`...` is converted to the fusion code below at parse time.
     # Attention: Currently there is no way to escape closing-backticks inside the Expression.
     #
-    renderer = afx`
-        <div class={'row molecule-grid molecule-grid-column-six' + (props.classNames ? ' ' + props.classNames : '')}>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column0}
-                classNames={props.columnWidth0 + ' ' + props.color0}
-                bgImage={props.bgImagePath0}/>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column1}
-                classNames={props.columnWidth1 + ' ' + props.color1}
-                bgImage={props.bgImagePath1}/>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column2}
-                classNames={props.columnWidth2 + ' ' + props.color2}
-                bgImage={props.bgImagePath2}/>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column3}
-                classNames={props.columnWidth3 + ' ' + props.color3}
-                bgImage={props.bgImagePath3}/>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column4}
-                classNames={props.columnWidth4 + ' ' + props.color4}
-                bgImage={props.bgImagePath4}/>
-            <DIU.Grid:Components.Atom.Column
-                content={props.column5}
-                classNames={props.columnWidth5 + ' ' + props.color5}
-                bgImage={props.bgImagePath5}/>
-        </div>
-    `
+
+    renderer = Neos.Fusion:ConComponent {
+        classNames = ${props.classNames}
+        column0 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column0}
+            classNames = ${props.columnWidth0 + ' ' + props.color0}
+            bgImage = ${props.bgImagePath0}
+        }
+        column1 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column1}
+            classNames = ${props.columnWidth1 + ' ' + props.color1}
+            bgImage = ${props.bgImagePath1}
+        }
+        column2 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column2}
+            classNames = ${props.columnWidth2 + ' ' + props.color2}
+            bgImage = ${props.bgImagePath2}
+        }
+        column3 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column3}
+            classNames = ${props.columnWidth3 + ' ' + props.color3}
+            bgImage = ${props.bgImagePath3}
+        }
+        column4 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column4}
+            classNames = ${props.columnWidth4 + ' ' + props.color4}
+            bgImage = ${props.bgImagePath4}
+        }
+        column5 = DIU.Grid:Components.Atom.Column {
+            content = ${props.column5}
+            classNames = ${props.columnWidth5 + ' ' + props.color5}
+            bgImage = ${props.bgImagePath5}
+        }
+        renderer = afx`
+            <div class={'row molecule-grid molecule-grid-column-one' + (props.classNames ? ' ' + props.classNames : '')}>
+                {props.column0}
+                {props.column1}
+                {props.column2}
+                {props.column3}
+                {props.column4}
+                {props.column5}
+            </div>
+        `
+    }
+}
 }
