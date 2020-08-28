@@ -25,16 +25,17 @@ prototype(DIU.Grid:Components.Atom.Section) < prototype(Neos.Fusion:Component) {
 
     }
 
-    content = Neos.Neos:ContentCollectionRenderer
+    content = ''
     classNames = ''
     offset= ''
     fluidLayout=''
     id = ''
+    contentCollection = Neos.Neos:ContentCollectionRenderer
 
     renderer = afx`
         <section class={'atom-section ' + props.classNames + ' ' + props.offset + ' container' + props.fluidLayout} id={props.anchorTag}>
             <div @if.has={props.backgroundImage} class="a-s__background-image" style={'background-image: url("' + props.backgroundImage + '");'}></div>
-            {props.content}
+            {props.contentCollection}
         </section>
     `
 }
