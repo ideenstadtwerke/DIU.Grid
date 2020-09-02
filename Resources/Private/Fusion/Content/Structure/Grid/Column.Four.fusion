@@ -22,6 +22,11 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Four) < prototype(Neos.Neos:Con
         column2 = ${q(node).children('column2').get(0)}
         column3 = ${q(node).children('column3').get(0)}
 
+        alignment0 = ${q(node).children('column0').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column0').property('alignment') : ''}
+        alignment1 = ${q(node).children('column1').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column1').property('alignment') : ''}
+        alignment2 = ${q(node).children('column2').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column2').property('alignment') : ''}
+        alignment3 = ${q(node).children('column3').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column3').property('alignment') : ''}
+
         columnData = Neos.Fusion:DataStructure {
             xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}

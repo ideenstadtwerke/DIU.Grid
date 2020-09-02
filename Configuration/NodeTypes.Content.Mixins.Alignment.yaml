@@ -1,0 +1,21 @@
+'DIU.Grid:Content.Mixins.Alignment':
+  abstract: true
+  properties:
+    alignment:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadPageIfChanged: true
+        inspector:
+          position: end
+          group: structure
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: true
+            placeholder: i18n
+            values:
+              center:
+                label: 'center'
+              bottom:
+                label: 'bottom'

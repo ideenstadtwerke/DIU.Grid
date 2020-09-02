@@ -26,6 +26,14 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
         column4 = ${q(node).children('column4').get(0)}
         column5 = ${q(node).children('column5').get(0)}
 
+        alignment0 = ${q(node).children('column0').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column0').property('alignment') : ''}
+        alignment1 = ${q(node).children('column1').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column1').property('alignment') : ''}
+        alignment2 = ${q(node).children('column2').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column2').property('alignment') : ''}
+        alignment3 = ${q(node).children('column3').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column3').property('alignment') : ''}
+        alignment4 = ${q(node).children('column4').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column4').property('alignment') : ''}
+        alignment5 = ${q(node).children('column5').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column5').property('alignment') : ''}
+
+
         columnData = Neos.Fusion:DataStructure{
             xs = Neos.Fusion:DataStructure {
                 offset = ${mobileLayout[0]}

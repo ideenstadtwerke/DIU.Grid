@@ -73,6 +73,12 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
     bgImagePath3 = ''
     bgImagePath4 = ''
     bgImagePath5 = ''
+    alignment0 = ''
+    alignment1 = ''
+    alignment2 = ''
+    alignment3 = ''
+    alignment4 = ''
+    alignment5 = ''
 
     #
     # The code afx`...` is converted to the fusion code below at parse time.
@@ -82,27 +88,27 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Six) < prototype(Neos.Fusion:
         <div class={'row molecule-grid molecule-grid-column-six' + (props.classNames ? ' ' + props.classNames : '')}>
             <DIU.Grid:Components.Atom.Column
                 content={props.column0}
-                classNames={props.columnWidth0 + ' ' + props.color0}
+                classNames={props.columnWidth0 + ' ' + props.color0 + ' ' + props.alignment0}
                 bgImage={props.bgImagePath0}/>
             <DIU.Grid:Components.Atom.Column
                 content={props.column1}
-                classNames={props.columnWidth1 + ' ' + props.color1}
+                classNames={props.columnWidth1 + ' ' + props.color1 + ' ' + props.alignment1}
                 bgImage={props.bgImagePath1}/>
             <DIU.Grid:Components.Atom.Column
                 content={props.column2}
-                classNames={props.columnWidth2 + ' ' + props.color2}
+                classNames={props.columnWidth2 + ' ' + props.color2 + ' ' + props.alignment2}
                 bgImage={props.bgImagePath2}/>
             <DIU.Grid:Components.Atom.Column
                 content={props.column3}
-                classNames={props.columnWidth3 + ' ' + props.color3}
+                classNames={props.columnWidth3 + ' ' + props.color3 + ' ' + props.alignment3}
                 bgImage={props.bgImagePath3}/>
             <DIU.Grid:Components.Atom.Column
                 content={props.column4}
-                classNames={props.columnWidth4 + ' ' + props.color4}
+                classNames={props.columnWidth4 + ' ' + props.color4 + ' ' + props.alignment4}
                 bgImage={props.bgImagePath4}/>
             <DIU.Grid:Components.Atom.Column
                 content={props.column5}
-                classNames={props.columnWidth5 + ' ' + props.color5}
+                classNames={props.columnWidth5 + ' ' + props.color5 + ' ' + props.alignment5}
                 bgImage={props.bgImagePath5}/>
         </div>
     `

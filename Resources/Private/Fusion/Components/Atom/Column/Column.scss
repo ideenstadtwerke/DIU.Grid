@@ -5,6 +5,14 @@
     background-position: center;
 }
 
+.diu-grid-alignment-center {
+  align-self: center;
+}
+
+.diu-grid-alignment-bottom {
+  align-self: flex-end;
+}
+
 @each $colorClass, $colorVar in $colors {
     .atom-column.bg-color-#{$colorClass} {
         background-color: $colorVar;
