@@ -1,6 +1,7 @@
 'DIU.Grid:Content.Structure.Grid.BaseColumn':
   superTypes:
     'Neos.Neos:ContentCollection': true
+    'DIU.Grid:Content.Mixins.Alignment': true
   ui:
     label: 'Column'
     icon: columns

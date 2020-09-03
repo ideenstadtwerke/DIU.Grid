@@ -42,6 +42,11 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Three) < prototype(Neos.Neos:Co
             }
         }
 
+        alignment0 = ${q(node).children('column0').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column0').property('alignment') : ''}
+        alignment1 = ${q(node).children('column1').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column1').property('alignment') : ''}
+        alignment2 = ${q(node).children('column2').property('alignment') ? 'diu-grid-alignment-' +q(node).children('column2').property('alignment') : ''}
+
+
         columnWidth0 = ${DIU.Grid.assembleClassNames(this.columnData, 0)}
         columnWidth1 = ${DIU.Grid.assembleClassNames(this.columnData, 1)}
         columnWidth2 = ${DIU.Grid.assembleClassNames(this.columnData, 2)}

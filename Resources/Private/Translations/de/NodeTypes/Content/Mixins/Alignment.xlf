@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.alignment">
+                <source>Content Alignment</source>
+                <target>Inhaltsausrichtung</target>
+            </trans-unit>
+            <trans-unit id="properties.alignment.selectBoxEditor.placeholder">
+                <source>default</source>
+                <target>top</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
