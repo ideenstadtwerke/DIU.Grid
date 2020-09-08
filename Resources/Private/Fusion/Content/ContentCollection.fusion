@@ -6,10 +6,10 @@ prototype(DIU.Grid:Content.ContentCollection) < prototype(Neos.Neos:ContentCompo
         }
         entryTags {
             1 = ${Neos.Caching.descendantOfTag(node)}
-            2 = ${Neos.Caching.nodeTag(node)}
+            2 = ${Neos.Caching.descendantOfTag(q(node).parent())}
+            3 = ${Neos.Caching.nodeTag(node)}
         }
         maximumLifetime = ${q(node).context({'invisibleContentShown': true}).children().cacheLifetime()}
     }
-
     @exceptionHandler = 'Neos\\Neos\\Fusion\\ExceptionHandlers\\NodeWrappingHandler'
 }
