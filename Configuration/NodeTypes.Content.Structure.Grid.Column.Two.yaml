@@ -51,7 +51,7 @@
               1-7-4:
                 label: i18n
     mobileLayout:
-      defaultValue: 0-6-6
+      defaultValue: 0-12-12
       ui:
         inspector:
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
