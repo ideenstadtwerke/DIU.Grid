@@ -11,6 +11,12 @@
             <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-3-3-3">
                 <source>Equal columns (3-3-3-3 Cols)</source>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-6-6-6-6">
+                <source>Half columns (6-6-6-6 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-6-6-6-6">
+                <source>Half columns (6-6-6-6 Cols)</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
