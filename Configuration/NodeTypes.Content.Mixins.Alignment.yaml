@@ -15,6 +15,8 @@
             allowEmpty: true
             placeholder: i18n
             values:
+              top:
+                label: 'top'
               center:
                 label: 'center'
               bottom:

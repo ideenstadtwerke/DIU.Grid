@@ -7,10 +7,14 @@
 
 .diu-grid-alignment-center {
   align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .diu-grid-alignment-bottom {
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
 }
 
 @each $colorClass, $colorVar in $colors {
