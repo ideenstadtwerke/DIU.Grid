@@ -29,6 +29,9 @@
             <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-3-3-6">
                 <source>Quarter Quarter Half (3-3-6 Cols)</source>
             </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12-12">
+               <source>Three Rows (12-12-12 Cols)</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -42,6 +42,7 @@
               0-2-2-2-2-2-2:
                 label: i18n
     tabletLayout:
+      defaultValue: 0-4-4-4-4-4-4
       ui:
         inspector:
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
@@ -49,6 +50,18 @@
             values:
               0-2-2-2-2-2-2:
                 label: i18n
+              0-4-4-4-4-4-4:
+                label: i18n
+              0-12-12-12-12-12-12:
+                label: i18n
     mobileLayout:
+      defaultValue: 0-12-12-12-12-12-12
       ui:
-        inspector: ~
+        inspector:
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              0-4-4-4-4-4-4:
+                label: i18n
+              0-12-12-12-12-12-12:
+                label: i18n

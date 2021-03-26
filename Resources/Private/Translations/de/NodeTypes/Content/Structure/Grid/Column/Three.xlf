@@ -38,6 +38,10 @@
               <source>Quarter Quarter Half (3-3-6 Cols)</source>
               <target>Viertel Viertel Halb (3-3-6)</target>
             </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12-12">
+               <source>Three Rows (12-12-12 Cols)</source>
+               <target>Drei Zeilen (12-12-12)</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

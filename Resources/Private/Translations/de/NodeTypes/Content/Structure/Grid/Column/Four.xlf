@@ -22,6 +22,14 @@
                 <source>Half columns (6-6-6-6 Cols)</source>
                 <target>Halbe Spalten (6-6-6-6)</target>
             </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12-12-12">
+               <source>Four Rows (12-12-12-12 Cols)</source>
+               <target>Vier Reihen (12-12-12-12)</target>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-6-6-6-6">
+                <source>Half columns (6-6-6-6 Cols)</source>
+                <target>Halbe Spalten (6-6-6-6)</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

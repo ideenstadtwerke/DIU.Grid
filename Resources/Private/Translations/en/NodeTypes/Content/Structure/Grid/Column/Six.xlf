@@ -11,6 +11,18 @@
             <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-2-2-2-2-2-2">
                 <source>Equal columns (2-2-2-2-2-2 Cols)</source>
             </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-4-4-4-4-4-4">
+                <source>Two rows (4-4-4-4-4-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-12-12-12-12-12-12">
+                <source>Six Rows (12-12-12-12-12-12 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-4-4-4-4-4-4">
+                <source>Two rows (4-4-4-4-4-4 Cols)</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12-12-12-12-12-12">
+                <source>Six Rows (12-12-12-12-12-12 Cols)</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
