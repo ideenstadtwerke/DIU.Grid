@@ -1,4 +1,1 @@
-include: Components/Atom/**/**/*.fusion
-include: Components/Molecule/**/**/*.fusion
-include: Content/**/**/*.fusion
-include: Content/**/**/**/*.fusion
+include: Components/**/*.fusion
