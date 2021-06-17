@@ -14,9 +14,9 @@
                  <source>Color</source>
                  <target>Farbe</target>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.none">
-                 <source>None</source>
-                 <target>Keine</target>
+            <trans-unit id="properties.color.selectBoxEditor.values.auto">
+                 <source>Automatic</source>
+                 <target>Automatisch</target>
             </trans-unit>
           <trans-unit id="properties.color.selectBoxEditor.values.white">
             <source>White</source>

@@ -35,7 +35,7 @@
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             values:
-              none:
+              auto:
                 label: i18n
               black:
                 label: i18n
