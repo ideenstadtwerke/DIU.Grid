@@ -37,10 +37,7 @@
             values:
               none:
                 label: i18n
-              main:
-                label: i18n
-              secondary:
+              black:
                 label: i18n
               white:
                 label: i18n
-
