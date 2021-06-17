@@ -1,3 +1,8 @@
+$color-array-grid:
+    "main" #86bc25,
+    "secondary" #86bc25
+!default;
+
 .atom-section {
     padding: 30px 0;
     min-height: 40px;
@@ -17,7 +22,7 @@
     margin-top: -300px;
 }
 
-@each $colorClass, $colorVar in $colors {
+@each $colorClass, $colorVar in $color-array-grid {
     .atom-section.color-#{$colorClass} {
         background-color: $colorVar;
     }

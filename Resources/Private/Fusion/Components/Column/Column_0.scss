@@ -1,3 +1,8 @@
+$color-array-grid:
+        "main" #86bc25,
+        "secondary" #86bc25
+!default;
+
 .atom-column {
     margin-bottom: 20px;
     background-repeat: no-repeat;
@@ -17,7 +22,7 @@
   flex-direction: column;
 }
 
-@each $colorClass, $colorVar in $colors {
+@each $colorClass, $colorVar in $color-array-grid {
     .atom-column.bg-color-#{$colorClass} {
         background-color: $colorVar;
     }
