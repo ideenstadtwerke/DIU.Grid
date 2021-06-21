@@ -1,5 +1,7 @@
 prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:ContentComponent) {
 
+    @context.col0 = ${q(node).children().get(0)['identifier']}
+
     renderer = DIU.Grid:Components.Molecule.Grid.Column.One {
 
         classNames = Neos.Fusion:Join {
@@ -23,15 +25,15 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
 
         columnData = Neos.Fusion:DataStructure{
             xs = Neos.Fusion:DataStructure {
-                offset = ${mobileLayout[0]}
+                offset = ${mobileLayout[0] / 2}
                 col0 = ${mobileLayout[1]}
             }
             md = Neos.Fusion:DataStructure {
-                offset = ${tabletLayout[0]}
+                offset = ${tabletLayout[0] / 2}
                 col0 = ${tabletLayout[1]}
             }
             lg = Neos.Fusion:DataStructure {
-                offset = ${desktopLayout[0]}
+                offset = ${desktopLayout[0] / 2}
                 col0 = ${desktopLayout[1]}
             }
         }
