@@ -5,11 +5,32 @@
             <trans-unit id="ui.label">
                 <source>Single Column</source>
             </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.0-12">
+              <source>Full width (0-12)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.2-10">
+                <source>Center (2-10)</source>
+            </trans-unit>
+            <trans-unit id="properties.desktopLayout.selectBoxEditor.values.4-8">
+                <source>Center (4-8)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.0-12">
+              <source>Full width (0-12)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.2-10">
+                <source>Center (2-10)</source>
+            </trans-unit>
+            <trans-unit id="properties.tabletLayout.selectBoxEditor.values.4-8">
+                <source>Center (4-8)</source>
+            </trans-unit>
             <trans-unit id="properties.mobileLayout.selectBoxEditor.values.0-12">
                 <source>Full width / 12 cols</source>
             </trans-unit>
             <trans-unit id="properties.mobileLayout.selectBoxEditor.values.2-10">
                 <source>Center 10 cols</source>
+            </trans-unit>
+            <trans-unit id="properties.mobileLayout.selectBoxEditor.values.4-8">
+                <source>Center (4-8)</source>
             </trans-unit>
         </body>
     </file>
