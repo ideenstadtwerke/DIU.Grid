@@ -26,8 +26,5 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(DIU.Grid:Content.Conte
 
         anchorTag = ${q(node).property('anchorTag')}
 
-        /*content = Neos.Neos:PrimaryContent {
-            nodePath = 'section'
-        }*/
     }
 }

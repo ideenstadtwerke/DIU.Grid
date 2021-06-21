@@ -14,18 +14,14 @@
                  <source>Color</source>
                  <target>Farbe</target>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.none">
-                 <source>None</source>
-                 <target>Keine</target>
-            </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.main">
-                 <source>Primary Color</source>
-                 <target>Primärfarbe</target>
-            </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.secondary">
-                 <source>Secondary Color</source>
-                 <target>Sekundärfarbe</target>
-            </trans-unit>
+          <trans-unit id="properties.color.selectBoxEditor.values.auto">
+            <source>Auto</source>
+            <target>Auto</target>
+          </trans-unit>
+          <trans-unit id="properties.color.selectBoxEditor.values.black">
+            <source>Black</source>
+            <target>Schwarz</target>
+          </trans-unit>
           <trans-unit id="properties.color.selectBoxEditor.values.white">
             <source>White</source>
             <target>Weiß</target>
