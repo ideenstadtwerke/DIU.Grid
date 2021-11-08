@@ -63,22 +63,22 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Four) < prototype(Neos.Neos:Con
 
         bgImagePath0 = Neos.Neos:ImageUri {
             asset = ${q(node).children('column0').property('backgroundImage')}
-            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
+            @if.hasAsset = ${q(node).children('column0').property('backgroundImage') ? true : false}
         }
 
         bgImagePath1 = Neos.Neos:ImageUri {
             asset = ${q(node).children('column1').property('backgroundImage')}
-            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
+            @if.hasAsset = ${q(node).children('column1').property('backgroundImage') ? true : false}
         }
 
         bgImagePath2 = Neos.Neos:ImageUri {
             asset = ${q(node).children('column2').property('backgroundImage')}
-            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
+            @if.hasAsset = ${q(node).children('column2').property('backgroundImage') ? true : false}
         }
 
         bgImagePath3 = Neos.Neos:ImageUri {
             asset = ${q(node).children('column3').property('backgroundImage')}
-            @if.hasAsset = ${q(node).property('backgroundImage') ? true : false}
+            @if.hasAsset = ${q(node).children('column3').property('backgroundImage') ? true : false}
         }
     }
 
