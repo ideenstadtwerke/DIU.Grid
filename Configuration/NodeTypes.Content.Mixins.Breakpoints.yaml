@@ -1,0 +1,39 @@
+'DIU.Grid:Content.Mixins.Breakpoints':
+  abstract: true
+  ui:
+    label: 'Breakpoints'
+    icon: 'laptop-mobile'
+    group: 'breakpoints'
+    inspector:
+      groups:
+        breakpoints:
+          label: i18n
+          position: 10
+  properties:
+    hideOnMobile:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: breakpoints
+    hideOnTablet:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: breakpoints
+    hideOnDesktop:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          position: end
+          group: breakpoints

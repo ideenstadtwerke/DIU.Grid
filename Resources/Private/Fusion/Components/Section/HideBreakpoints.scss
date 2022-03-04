@@ -1,0 +1,59 @@
+.atom-section--hideOnMobile {
+  display: none;
+}
+.atom-section--hideOnTablet {
+  display: block;
+}
+.atom-section--hideOnDesktop {
+  display: block;
+}
+@media (min-width: 576px) {
+  .atom-section--hideOnMobile {
+    display: block;
+  }
+  .atom-section--hideOnTablet {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .atom-section--hideOnMobile {
+    display: block;
+  }
+  .atom-section--hideOnTablet {
+    display: block;
+  }
+  .atom-section--hideOnDesktop {
+    display: none;
+  }
+}
+
+.neos-backend {
+  .atom-section--hideOnMobile {
+    display: block !important;
+    opacity: 0.5;
+  }
+  @media (min-width: 576px) {
+    .atom-section--hideOnMobile {
+      display: block !important;
+      opacity: 1;
+    }
+    .atom-section--hideOnTablet {
+      display: block !important;
+      opacity: 0.5;
+    }
+  }
+  @media (min-width: 992px) {
+    .atom-section--hideOnMobile {
+      display: block !important;
+      opacity: 1;
+    }
+    .atom-section--hideOnTablet {
+      display: block !important;
+      opacity: 1;
+    }
+    .atom-section--hideOnDesktop {
+      display: block !important;
+      opacity: 0.5;
+    }
+  }
+}

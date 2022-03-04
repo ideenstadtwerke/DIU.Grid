@@ -14,6 +14,13 @@ prototype(DIU.Grid:Content.Structure.Section) < prototype(DIU.Grid:Content.Conte
             addBottomSpacingDesktop = ${q(node).property('addBottomSpacingDesktop') ? q(node).property('addBottomSpacingDesktop') : ''}
             theme = ${q(node).property('theme') ? q(node).property('theme') : ''}
             color = ${q(node).property('color') ? 'color-' + q(node).property('color') : ''}
+
+            hideOnMobile = ${'atom-section--hideOnMobile'}
+            hideOnMobile.@if.set = ${q(node).property('hideOnMobile')}
+            hideOnTablet = ${'atom-section--hideOnTablet'}
+            hideOnTablet.@if.set = ${q(node).property('hideOnTablet')}
+            hideOnDesktop = ${'atom-section--hideOnDesktop'}
+            hideOnDesktop.@if.set = ${q(node).property('hideOnDesktop')}
         }
         classNames.@process.trim = ${String.trim(value)}
 

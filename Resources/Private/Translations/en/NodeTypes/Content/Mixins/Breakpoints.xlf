@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="DIU.Grid" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.breakpoints">
+                <source>Breakpoints</source>
+            </trans-unit>
+            <trans-unit id="properties.hideOnMobile">
+                <source>Mobile hide</source>
+            </trans-unit>
+            <trans-unit id="properties.hideOnTablet">
+                <source>Tablet hide</source>
+            </trans-unit>
+            <trans-unit id="properties.hideOnDesktop">
+                <source>Desktop hide</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
