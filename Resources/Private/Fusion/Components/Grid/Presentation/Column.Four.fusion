@@ -86,7 +86,7 @@ prototype(DIU.Grid:Components.Molecule.Grid.Column.Four) < prototype(Neos.Fusion
             bgImage={props.bgImagePath2} />
             <DIU.Grid:Components.Atom.Column
                 content={props.column3}
-                classNames={props.columnWidth3 + ' ' + props.color3 + ' ' + props.alignment4}
+                classNames={props.columnWidth3 + ' ' + props.color3 + ' ' + props.alignment3}
             bgImage={props.bgImagePath3} />
         </div>
     `

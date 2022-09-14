@@ -107,6 +107,8 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.Six) < prototype(Neos.Neos:Cont
             asset = ${q(node).children('column5').property('backgroundImage')}
             @if.hasAsset = ${q(node).children('column5').property('backgroundImage') ? true : false}
         }
+
+        @if.visable = ${q(node).property('_hidden') == false ? true : false || node.context.inBackend}
     }
 }
 
