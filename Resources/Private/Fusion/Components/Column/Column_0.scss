@@ -8,22 +8,46 @@ $color-array-grid:
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    &__background {
+      padding: 20px 15px;
+      height: 100%;
+      background-size: cover;
+    }
+    &__wrapper {
+      height: 100%;
+
+      &.m-1 {
+        height: calc(100% - 0.5rem);
+      }
+      &.m-2 {
+        height: calc(100% - 1rem);
+      }
+      &.m-3 {
+        height: calc(100% - 2rem);
+      }
+      &.m-4 {
+        height: calc(100% - 3rem);
+      }
+      &.m-5 {
+        height: calc(100% - 6rem);
+      }
+    }
 }
 
-.diu-grid-alignment-center {
-  align-self: center;
+.diu-grid-alignment-center .atom-column__background {
+  justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
-.diu-grid-alignment-bottom {
-  align-self: flex-end;
+.diu-grid-alignment-bottom .atom-column__background {
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
 
 @each $colorClass, $colorVar in $color-array-grid {
-    .atom-column.bg-color-#{$colorClass} {
+    .atom-column .bg-color-#{$colorClass} {
         background-color: $colorVar;
     }
 }
