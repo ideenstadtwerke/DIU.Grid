@@ -1,6 +1,6 @@
 prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:ContentComponent) {
 
-    @context.col0 = ${q(node).children().get(0)['identifier']}
+    @context.col0 = ${q(node).children().get(0).aggregateId}
 
     renderer = DIU.Grid:Components.Molecule.Grid.Column.One {
 
@@ -48,8 +48,6 @@ prototype(DIU.Grid:Content.Structure.Grid.Column.One) < prototype(Neos.Neos:Cont
             asset = ${q(node).children('column0').property('backgroundImage')}
             @if.hasAsset = ${q(node).children('column0').property('backgroundImage') ? true : false}
         }
-
-        @if.visable = ${q(node).property('_hidden') == false ? true : false || node.context.inBackend}
     }
 
 }
